@@ -43,3 +43,10 @@ We also analyzed data leakage rates, defined as the probability of obtaining ide
 ![alt text](figs/leakage.png)
 （Left: Leakage Rate of different datasets; Right: An example sample of data leakage.）
 
+
+<!-- 基于以上内容，我们提出了 Out-of-Distribution 划分，该划分基于序列相似度，并且剔除掉了训练集中与测试集相似度较高的样本。 -->
+
+Based on the above findings, we propose an Out-of-Distribution (OOD) split that is based on sequence similarity and removes samples in the training set that are highly similar to those in the test set. This split is designed to mitigate data leakage issues and provide a more accurate evaluation of model performance.
+
+OOD datasets can be downloaded from [Huggingface-link](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD).
+
