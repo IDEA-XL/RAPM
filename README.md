@@ -5,18 +5,19 @@
   <a href=""> RAPM (Retrieval-Augmented Protein Modeling) </a>
 </h2>
 
-**Official implementation for the paper "Rethinking Text-based Protein Understanding: Retrieval or LLM?"**
+**Official implementation of the paper "Rethinking Text-based Protein Understanding: Retrieval or LLM?"**
+
 
 ### [📖] Abstract:
-
+---
 In recent years, protein-text models have gained significant attention for their potential in protein generation and understanding. Current approaches focus on integrating protein-related knowledge into large language models through continued pretraining and multi-modal alignment, enabling simultaneous comprehension of textual descriptions and protein sequences. 
 Through a thorough analysis of existing model architectures and text-based protein understanding benchmarks, **we identify significant data leakage issues present in current benchmarks.** Moreover, **conventional metrics derived from natural language processing fail to accurately assess the model's performance in this domain.** To address these limitations, we reorganize existing datasets and introduce a novel evaluation framework based on biological entities. Motivated by our observation, we propose a **retrieval-enhanced method**, which significantly outperforms fine-tuned LLMs for protein-to-text generation and shows accuracy and efficiency in training-free scenarios.
 
 ![alt text](figs/main_fig.png)
 
 ### [‼️] Data Leakage in Existing Protein-to-Text Benchmark 
-
-We evaluated four commonly used benchmarks in the field of text-based protein understanding, including the protein comprehension tasks (Function, Description, Domain, and Catalytic) from Mol-Instructions [1], UniProtQA [2], the Swiss-Prot Protein Caption dataset [3], and the ProteinKG25 dataset [4].  
+---
+We evaluated four widely used benchmarks for text-based protein understanding: the protein comprehension tasks from Mol-Instructions [1], UniProtQA [2], the Swiss-Prot Protein Caption dataset [3], and the ProteinKG25 dataset [4].
 
 <p style="font-style: italic; font-size: smaller;">
 [1] Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models <br>
@@ -25,13 +26,20 @@ We evaluated four commonly used benchmarks in the field of text-based protein un
 [4] OntoProtein: Protein Pretraining With Ontology Embedding <br>
 </p>
 
-For sequence retrieval, we employed MMSeqs2 with the following command:  
+For sequence retrieval, we used MMSeqs2 with the following command:
+
 ```sh
 mmseqs easy-search --max-accept 1 -e 1e5 -v 0 test_seqs.fasta train_seqs.fasta result.m8 tmp  
 ```
-For each protein sequence in the test set, the label of its most similar counterpart in the training set was assigned as the predicted output.  
+For each protein sequence in the test set, the label of its most similar counterpart in the training set was assigned as the predicted output. Note that we process different subtasks separately, instead of retrieving from mixed candidates.
 
-The experimental results are presented in the table below, demonstrating that all current LLM-based models underperform compared to retrieval-based models. Furthermore, we conducted an analysis of data leakage rates. Here, we define leakage rate as the probability of obtaining identical labels when using the retrieval method (for Mol-Instructions, we only consider whether the metadata matches, without accounting for variations in response phrasing).
+The results, shown in the table below, demonstrate that all current LLM-based models perform worse than retrieval-based models.
 
 ![alt text](figs/tab1.png)
+
+
+We also analyzed data leakage rates, defined as the probability of obtaining identical labels using the retrieval method. For Mol-Instructions, we only consider metadata matches, ignoring differences in response phrasing, as shown in the table below. The results indicate that data leakage is prevalent in almost all benchmarks, with UniProtQA-Protein Family being the most severe case, where 97.7% of the test set can be predicted by retrieval.
+
+![alt text](figs/leakage.png)
+（Left: Leakage Rate of different datasets; Right: An example sample of data leakage.）
 
