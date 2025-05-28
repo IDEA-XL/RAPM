@@ -7,11 +7,13 @@
 
 **Official implementation of the paper "Rethinking Text-based Protein Understanding: Retrieval or LLM?"**
 
+<h5 align="center">
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
 [![Paper Link](https://img.shields.io/badge/Paper-pink?style=flat-square&logo=arXiv)](http://arxiv.org/abs/2505.20354)
 [![GitHub Link](https://img.shields.io/badge/GitHub-blue?style=flat-square&logo=github)](https://github.com/IDEA-XL/RAPM)
-[![Huggingface Link](https://img.shields.io/badge/Huggingface-orange?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD)
+[![Dataset](https://img.shields.io/badge/🤗-Dataset_Download-orange)](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD)
+</h5>
 
 ### [📖] Abstract:
 ---
