@@ -5,12 +5,13 @@
   <a href=""> RAPM (Retrieval-Augmented Protein Modeling) </a>
 </h2>
 
-<h5 align="center">
+<h4 align="center">
 
 **Official implementation of the paper "Rethinking Text-based Protein Understanding: Retrieval or LLM?"**
 
+</h4>
 
-<!-- <h5 align="center"> -->
+<h5 align="center">
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
@@ -22,8 +23,7 @@
 
 ### [📖] Abstract:
 ---
-In recent years, protein-text models have gained significant attention for their potential in protein generation and understanding. Current approaches focus on integrating protein-related knowledge into large language models through continued pretraining and multi-modal alignment, enabling simultaneous comprehension of textual descriptions and protein sequences. 
-Through a thorough analysis of existing model architectures and text-based protein understanding benchmarks, **we identify significant data leakage issues present in current benchmarks.** Moreover, **conventional metrics derived from natural language processing fail to accurately assess the model's performance in this domain.** To address these limitations, we reorganize existing datasets and introduce a novel evaluation framework based on biological entities. Motivated by our observation, we propose a **retrieval-enhanced method**, which significantly outperforms fine-tuned LLMs for protein-to-text generation and shows accuracy and efficiency in training-free scenarios.
+Recent advances in protein-text modeling reveal that _simple retrieval methods_ can _outperform current LLM-based approaches_, while _existing benchmarks and metrics_ often fail to reflect true model performance. To address these challenges, we introduce the _Prot-Inst-OOD dataset_ and the _Bio-Entity BLEU metric_ for more reliable evaluation. Our proposed _RAPM framework_, which combines _retrieval-augmented generation_ with a _dual-indexed biological knowledge database_, achieves _state-of-the-art results_ and demonstrates that _retrieval-augmented approaches_ are both _more accurate and efficient_ for protein-text understanding tasks.
 
 ![alt text](figs/main_fig.png)
 
