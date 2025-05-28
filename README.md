@@ -50,3 +50,19 @@ Based on the above findings, we propose an Out-of-Distribution (OOD) split that 
 
 OOD datasets can be downloaded from [Huggingface-link](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD).
 
+
+### Citation
+If you find our work useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{wu2025rethinkingtextbasedproteinunderstanding,
+      title={Rethinking Text-based Protein Understanding: Retrieval or LLM?}, 
+      author={Juntong Wu and Zijing Liu and He Cao and Hao Li and Bin Feng and Zishan Shu and Ke Yu and Li Yuan and Yu Li},
+      year={2025},
+      eprint={2505.20354},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.20354}, 
+}
+```
+
+
