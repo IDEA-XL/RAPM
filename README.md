@@ -7,6 +7,11 @@
 
 **Official implementation of the paper "Rethinking Text-based Protein Understanding: Retrieval or LLM?"**
 
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
+[![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red?style=flat-square)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
+[![Paper Link](https://img.shields.io/badge/Paper-pink?style=flat-square&logo=arXiv)](http://arxiv.org/abs/2505.20354)
+[![GitHub Link](https://img.shields.io/badge/GitHub-blue?style=flat-square&logo=github)](https://github.com/IDEA-XL/RAPM)
+[![Huggingface Link](https://img.shields.io/badge/Huggingface-orange?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD)
 
 ### [📖] Abstract:
 ---
@@ -52,4 +57,20 @@ We also analyzed data leakage rates, defined as the probability of obtaining ide
 Based on the above findings, we propose an Out-of-Distribution (OOD) split that is based on sequence similarity and removes samples in the training set that are highly similar to those in the test set. This split is designed to mitigate data leakage issues and provide a more accurate evaluation of model performance.
 
 OOD datasets can be downloaded from [Huggingface-link](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD).
+
+
+### Citation
+If you find our work useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{wu2025rethinkingtextbasedproteinunderstanding,
+      title={Rethinking Text-based Protein Understanding: Retrieval or LLM?}, 
+      author={Juntong Wu and Zijing Liu and He Cao and Hao Li and Bin Feng and Zishan Shu and Ke Yu and Li Yuan and Yu Li},
+      year={2025},
+      eprint={2505.20354},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.20354}, 
+}
+```
+
 
