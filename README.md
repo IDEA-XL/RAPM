@@ -19,12 +19,15 @@ Through a thorough analysis of existing model architectures and text-based prote
 ---
 We evaluated four widely used benchmarks for text-based protein understanding: the protein comprehension tasks from Mol-Instructions [1], UniProtQA [2], the Swiss-Prot Protein Caption dataset [3], and the ProteinKG25 dataset [4].
 
-<p style="font-style: italic; font-size: smaller;">
-[1] Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models <br>
-[2] BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine <br>
-[3] ProtT3: Protein-to-Text Generation for Text-based Protein Understanding <br>
-[4] OntoProtein: Protein Pretraining With Ontology Embedding <br>
-</p>
+<details>
+  <summary style="cursor: pointer; font-style: italic; font-size: smaller;">Show references</summary>
+  <p style="font-style: italic; font-size: smaller;">
+    [1] Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models <br>
+    [2] BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine <br>
+    [3] ProtT3: Protein-to-Text Generation for Text-based Protein Understanding <br>
+    [4] OntoProtein: Protein Pretraining With Ontology Embedding <br>
+  </p>
+</details>
 
 For sequence retrieval, we used MMSeqs2 with the following command:
 
