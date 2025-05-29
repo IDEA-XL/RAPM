@@ -23,17 +23,22 @@
 
 ### 📖 Abstract:
 ---
-Recent advances in protein-text modeling reveal that _simple retrieval methods_ can _outperform current LLM-based approaches_, while _existing benchmarks and metrics_ often fail to reflect true model performance. To address these challenges, we introduce the _Prot-Inst-OOD dataset_ and the _Bio-Entity BLEU metric_ for more reliable evaluation. Our proposed _RAPM framework_, which combines _retrieval-augmented generation_ with a _dual-indexed biological knowledge database_, achieves _state-of-the-art results_ and demonstrates that _retrieval-augmented approaches_ are both _more accurate and efficient_ for protein-text understanding tasks.
+In recent years, protein-text language models are widely used to solve protein understanding tasks. Current approaches focus on *integrating protein-related knowledge into LLMs through continued pretraining or multi-modal alignment*, enabling LLMs to jointly understand protein sequences and textual descriptions.
+
+However, by analysing existing model architectures and text-based protein understanding benchmarks, our analysis reveals *significant data leakage* in current text-based protein benchmarks, and *metrics like ROUGE, BLEU are inadequate for evaluation in this domain.* 
+
+To address these limitations, we reorganize existing datasets and introduce a novel OOD dataset, [Prot-Inst-OOD](https://huggingface.co/datasets/TimeRune/Prot-Inst-OOD), along with a new evaluation metric, [Entity-BLEU](#Entity-BLEU). Furthermore, we propose a **retrieval-enhanced method** that significantly outperforms fine-tuned LLMs in protein-to-text generation, demonstrating both high accuracy and efficiency in training-free scenarios.
+
 
 ![alt text](figs/main_fig.png)
 
 ### ‼️ Data Leakage in Existing Protein-to-Text Benchmark 
 ---
-We evaluated four widely used benchmarks for text-based protein understanding: the protein comprehension tasks from Mol-Instructions [1], UniProtQA [2], the Swiss-Prot Protein Caption dataset [3], and the ProteinKG25 dataset [4].
+We evaluated four widely used benchmarks for text-based protein understanding: the protein comprehension tasks from Mol-Instructions [1], UniProtQA [2], Swiss-Prot Protein Caption [3], and ProteinKG25 [4].
 
 <details>
   <summary style="cursor: pointer; font-style: italic; font-size: smaller;">Show references</summary>
-  <p style="font-style: italic; font-size: smaller;">
+  <p style="font-style: italic">
     [1] Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models <br>
     [2] BioMedGPT: Open Multimodal Generative Pre-trained Transformer for BioMedicine <br>
     [3] ProtT3: Protein-to-Text Generation for Text-based Protein Understanding <br>
@@ -63,7 +68,79 @@ We also analyzed data leakage rates, defined as the probability of obtaining ide
 
 Based on the above findings, we propose an Out-of-Distribution (OOD) split that is based on sequence similarity and removes samples in the training set that are highly similar to those in the test set. This split is designed to mitigate data leakage issues and provide a more accurate evaluation of model performance.
 
-OOD datasets can be downloaded from [Huggingface-link](https://huggingface.co/datasets/TimeRune/Mol-Inst-OOD).
+OOD datasets can be downloaded from [Huggingface-link](https://huggingface.co/datasets/TimeRune/Prot-Inst-OOD).
+
+
+### 📊 New Metrics
+---
+
+#### Problems in Existing Metrics
+
+
+Here is an example of the evaluation results using ROUGE-L and BLEU metrics on a sample protein sequence:
+
+<details>
+  <summary style="cursor: pointer; font-style: italic; font-size: smaller;">Show Example</summary>
+
+<table>
+  <tr>
+    <td><b>Ground Truth:</b></td>
+    <td>
+      <code>Upon evaluating your submitted sequence, our predictive algorithms suggest the presence of: <u>ABC transporter domains</u></code>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Prediction 1<br>(True Answer):</b></td>
+    <td>
+      <code><span style="color:#c62828;">The sequence you provided has been analyzed for potential protein domains or motifs. The results are:</span><span style="color:#1976d2;"> ABC transporter domains</span>
+      <br>
+      <span style="background-color:#f5f5f5; padding:2px 6px; border-radius:3px; font-size:90%; color:#333;">ROUGE-L = 0.27; BLEU = 0.04</span>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Prediction 2<br>(False Answer):</b></td>
+    <td>
+      <code><span style="color:#1976d2;">Upon evaluating your submitted sequence, our predictive algorithms suggest the presence of: </span><span style="color:#c62828;">GGDEF, MHYT, EAL domains</span>
+      <br>
+      <span style="background-color:#f5f5f5; padding:2px 6px; border-radius:3px; font-size:90%; color:#333;">ROUGE-L = 0.83; BLEU = 0.73</span>
+    </td>
+  </tr>
+</table>
+
+<p align="center" style="font-size:90%;">
+  <span style="color:#1976d2;"><b>Blue</b></span>: Matched Part &nbsp;&nbsp;
+  <span style="color:#c62828;"><b>Red</b></span>: Mismatched Part
+</p>
+</details>
+
+It is evident that the first prediction, which is the true answer, has a low ROUGE-L and BLEU score due to the lack of exact matches in the generated text. In contrast, the second prediction, which is incorrect, achieves high scores despite containing incorrect information. This highlights the inadequacy of these metrics for evaluating protein-to-text generation tasks.
+
+
+#### Entity-BLEU
+
+**Entity-BLEU** is a metric specifically designed for biological question answering, where standard NLP metrics like ROUGE and BLEU often fail to reflect the true quality of predictions. Unlike traditional metrics that treat all tokens equally, Entity-BLEU focuses on the correct identification of biological entities, such as protein domains or enzyme names, regardless of their order in the text.
+
+The calculation process is as follows:
+1. **Entity Extraction:** Biological entities are extracted from both the predicted and reference answers using a curated knowledge base
+2. **BLEU Calculation:** The standard BLEU score is then computed, but instead of using the raw text, it operates on the sequences of extracted entities. This makes the metric order-invariant and robust to variations in phrasing.
+$$
+\text{Entity-BLEU} = \text{BP} \times \exp\left( \sum_{n=1}^{N} w_n \log p_n \right )
+$$
+
+where BP is the brevity penalty, $w_n$ are the weights for the n-gram precision scores $p_n$, and all calculations are performed on the extracted entity sequences.
+
+Entity-BLEU focuses on the correct identification of biological entities, providing a more accurate evaluation for protein-to-text generation tasks.
+
+
+In the Prot-Inst-OOD dataset, we provide the Bio-Entity list for all answers in the "metadata". This enables direct and reliable evaluation using Entity-BLEU, as entity extraction is already performed and available for each sample.
+
+
+
+### 🚀 Retrieval-Augmented Protein Modeling (RAPM)
+---
+
+
+
 
 
 ### Citation
