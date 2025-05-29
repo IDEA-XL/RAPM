@@ -163,12 +163,17 @@ We evaluate RAPM on the Prot-Inst-OOD dataset, comparing it with various LLM-bas
 - torch=2.7.0+cu118
 - transformers=4.45.0
 - cuda=11.7
+- mmseqs2 (for sequence retrieval)
+
+You can use the following commands to set up the environment:
 
 ```bash
-conda create -n rapm python=3.10
-conda activate rapm
+conda create -n RAPM python=3.12.7
+conda activate RAPM
 pip install -r requirements.txt
 ```
+
+MMseqs2 can be installed from [official repository](https://github.com/soedinglab/MMseqs2).
 
 
 

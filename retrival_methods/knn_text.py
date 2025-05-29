@@ -156,7 +156,7 @@ def evaluation(lines, labels, meta_labels, task_name):
 
 if __name__ == "__main__":
     
-    JSON_FOLDER = "../dataset"
+    JSON_FOLDER = "dataset"
     
     all_train_seqs = []
     all_train_labels = []
@@ -208,9 +208,9 @@ if __name__ == "__main__":
         pred_labels, test_labels = align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, p[:-5])
         evaluation(pred_labels, test_labels, meta_list, p[:-5])
         
-        all_train_features.append(np.load(f"{p[:-5]}_train_features.npy"))
-        all_test_features.append(np.load(f"{p[:-5]}_test_features.npy"))
-            
+        all_train_features.append(np.load(f"features/{p[:-5]}_train_features.npy"))
+        all_test_features.append(np.load(f"features/{p[:-5]}_test_features.npy"))
+
     all_train_features = np.concatenate(all_train_features, axis=0)
     all_test_features = np.concatenate(all_test_features, axis=0)
             
