@@ -108,8 +108,8 @@ Here is an example of the evaluation results using ROUGE-L and BLEU metrics on a
 </table>
 
 <p align="center" style="font-size:90%;">
-  <span style="color:#1976d2;"><b>Blue</b></span>: Matched Part &nbsp;&nbsp;
-  <span style="color:#c62828;"><b>Red</b></span>: Mismatched Part
+  <span><b>Bold</b></span>: Matched Part &nbsp;&nbsp;
+  <span><b>Italic</b></span>: Mismatched Part
 </p>
 </details>
 
@@ -123,9 +123,10 @@ It is evident that the first prediction, which is the true answer, has a low ROU
 The calculation process is as follows:
 1. **Entity Extraction:** Biological entities are extracted from both the predicted and reference answers using a curated knowledge base
 2. **BLEU Calculation:** The standard BLEU score is then computed, but instead of using the raw text, it operates on the sequences of extracted entities. This makes the metric order-invariant and robust to variations in phrasing.
-$$
+
+```math
 \text{Entity-BLEU} = \text{BP} \times \exp\left( \sum_{n=1}^{N} w_n \log p_n \right )
-$$
+```
 
 where BP is the brevity penalty, $w_n$ are the weights for the n-gram precision scores $p_n$, and all calculations are performed on the extracted entity sequences.
 
