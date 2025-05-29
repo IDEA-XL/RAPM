@@ -3,14 +3,14 @@
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MKITAINVFQVDLPLREGRYSWSNGNFVEVFDSTVVEIETDEGLKGYAECCPLGSAYLPSYALGVRSGLQELAPHLIGKDPLNIGEINRVMDAALRGHPYAKAPIDIACWDLLGKATGQPLYTLLGGAAQDDVALYRAISQEAPEIMAKKIEGYAAEGYTKFQLKVGGDANDDINRIHATRSVLKKSDLLVADANTGWTRHEAARVVGAVSSLDVYIEQPCLTYEESVSIRRRTALPFVLDEVIDGPNTLVRGIAEDAMDCINLKISKVGGLTKAKLMRDLCIAHGIPMTIEDTWGGDIVTAAIAHLARSTPSEFTFSATDFNSYGTVDIAEGAPKRVNGRMTTSDLPGLGITPIFDVLGEPVARYS",
         "description": "An analysis of the protein sequence reveals that the enzyme's catalytic function corresponds to the chemical reaction: cis-3-hydroxy-L-proline = 1-pyrroline-2-carboxylate + H2O.",
-        "split": "test",
+        "split": "train",
         "metadata": "cis-3-hydroxy-L-proline = 1-pyrroline-2-carboxylate + H2O"
     },
     {
         "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
         "sequence": "MNEAVSPGALSTLFTDARTHNGWRETPVSDETLREIYALMKWGPTSANCSPARIVFTRTAEGKERLRPALSSGNLQKTLTAPVTAIVAWDSEFYERLPLLFPHGDARSWFTSSPQLAEETAFRNSSMQAAYLIVACRALGLDTGPMSGFDRQHVDDAFFTGSTLKSNLLINIGYGDSSKLYARLPRLSFEEACGLL",
         "description": "Evaluation of the protein sequence indicates that the associated enzyme exhibits catalytic activity in the form of this chemical reaction: 3-hydroxypropanoate + NADP(+) = 3-oxopropanoate + H(+) +   NADPH.",
-        "split": "test",
+        "split": "train",
         "metadata": "3-hydroxypropanoate + NADP(+) = 3-oxopropanoate + H(+) +   NADPH"
     },
     {
@@ -38,28 +38,28 @@
         "instruction": "Given the protein sequence below, please analyze and describe the catalytic activity of the corresponding enzyme, specifically the chemical reaction it catalyzes: ",
         "sequence": "MQKEKVWDKLSTDTEERMNAANELFSDRKVVPSQNGVALLEAVIRAGDRINLEGNNQKQADFLAECLGSCDSEKINNLHMVQSAVPLPIHLDIFDKGIAKKLDFAYGGPMAAKVAEFLREGKLELGAIHTYLELFARYFMDLTPRVSLICAYEGDKDGNLYTGFNTEDTPVIAEATKFRQGIVIAQVNKLVDKVQRVDIPGEWVDAVIESPKPFYLEPLFTRDPANITDTQVLMGMMALKGIYGEYGVQRLNHGIGFFTAAIELLLPTYGNELGLKGKICKHFALNPHPTMIPAIEDGWVESIHSFGGELGMQKYCEARPDIFFIGPDGSMRSNRAYSQTAGHYATDMFIGGTLQIDKYGNSSTATASRVAGFGGAPNMGCDAKGRRHVTDSWLKCGAEFEDQAALLGDMPRGKRLVVQMQETFKEKMDPSFVEKLDAWNLAKNANLDLAPVMIYSDDLTHIVTEEGIAYLAKCRGLEERMAAIRGVAGYTEVGLSADPKETKTLRERGIVKTPEDLGIDRSRANRSMLAAKSVKDLVDCSGGLYEPPARFVNW",
         "description": "By examining the input protein sequence, the enzyme catalyzes the subsequent chemical reaction: acetyl-[ACP] + malonate = acetate + malonyl-[ACP].",
-        "split": "test",
+        "split": "train",
         "metadata": "acetyl-[ACP] + malonate = acetate + malonyl-[ACP]"
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MAAKVHVDIEADSPFIKSLQKAFPSFEVESLQVTPNDHANARAFSHLATKLIEQETDKDTLILDIGSAPSRRMMSTHKYHCVCPMRSAEDPERLVCYAKKLAAASGKVLDREIAGKITDLQTVMATPDAESPTFCLHTDVTCRTAAEVAVYQDVYAVHAPTSLYHQAMKGVRTAYWIGFDTTPFMFDALAGAYPTYATNWADEQVLQARNIGLCAASLTEGRLGKLSILRKKQLKPCDTVMFSVGSTLYTESRKLLRSWHLPSVFHLKGKQSFTCRCDTIVSCEGYVVKKITMCPGLYGKTVGYAVTYHAEGFLVCKTTDTVKGERVSFPVCTYVPSTICDQMTGILATDVTPEDAQKLLVGLNQRIVVNGRTQRNTNTMKNYLLPIVAVAFSKWAREYKADLDDEKPLGVRERSLTCCCLWAFKTRKMHTMYKKPDTQTIVKVPSEFNSFVIPSLWSTGLAIPVRSRIKMLLAKKTKRELIPVLDASSARDAEQEEKERLEAELTREALPPLVPIAPAETGVVDVDVEELEYHAGAGVVETPRSALKVTAQPNDVLLGNYVVLSPQTVLKSSKLAPVHPLAEQVKIITHNGRAGRYQVDGYDGRVLLPCGSAIPVPEFQALSESATMVYNEREFVNRKLYHIAVHGPSLNTDEENYEKVRAERTDAEYVFDVDKKCCVKREEASGLVLVGELTNPPFHEFAYEGLKIRPSAPYKTTVVGVFGVPGSGKSAIIKSLVTKHDLVTSGKKENCQEIVNDVKKHRGLDIQA",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: ADP-alpha-D-ribose 1''-phosphate + H2O = ADP-D-ribose +   phosphate.",
-        "split": "test",
+        "split": "train",
         "metadata": "ADP-alpha-D-ribose 1''-phosphate + H2O = ADP-D-ribose +   phosphate"
     },
     {
         "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
         "sequence": "MYKIKNNESDINSDDCNETAQECIYGFSSPKKSRKESPIFVQNNDDTCSSNNIYEKKTCSNTSASSVKKYDKKEQSLCSDINNYNKVNIEGLKINERNYDRINNSEEETNINDDNNDDNNGDYDDDNNSDDDDDNDDNNNNDDNNNDDDEDVDDFEDIKENDEYKDPTYSDIYKEAKKCNIRCENIMNSSVNKKNLEEINESDPLNSSDNSMTSSSEESCSEESDKESDKESDKDGNLYDEELNEIIEEGYFKELIPAIPHDILQAYISCLKICGFERQVQLHRLINLLGDLRDPISVIQILGLPGMGKTKVVKNFIKLTNVPFAYVNCLMAVYQSGRSAKNVIYHTILKDLSINLLNEFNEYKKINNITNYSYDPTKLVPNHVSNTDNFFSILHKLLSFKPEDILNNKRTTENIRSPSNSNNNKKKKKEQNDSTGKNSKEECNNNEDDDDDNNKNNFNNNNSNNVRFNSNTNYYKDKLYDRSVVFILDNIRYLVRTHPDLFYALTRIHEYIKGPYNDVTKANKTTRGLCIILINRSPLPDEIFDGLPQPPTVWFDSYTSEMCKNILYRLYNSMCFESLLTYNDKDLKIYYVKHNKNEFLIKRNDVILENDVIYDIWCRYVDYIINVSYKDYKSDFHELLFICSHMWPLFIKPILDGVLEPIVENMNALQRNIDTHIRVATYNHSSHFTFELIDSVFLNENNLKNKIDLSFYSKILLVGAYLASRNLPLTDKRFFNATVKGGAFTLPKKRKGKNKNESILTLLSKSIP",
         "description": "Upon reviewing the provided protein sequence, the corresponding enzyme's catalytic activity is identified as the following chemical reaction: ATP + H2O = ADP + H(+) + phosphate.",
-        "split": "test",
+        "split": "train",
         "metadata": "ATP + H2O = ADP + H(+) + phosphate"
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MKYGYFDNDNREYVITRPDVPAPWTNYLGTEKFCTVISHNAGGYSFYHSPEYNRVTKFRPNFTQDRPGHYIYLRDDETGDFWSVSWQPVAKNLDDAHYEVRHGLSYSKFRCDYNGIVATKTLFVPKGEDAQVWDVEIENTSDQPRTISAFGYVEFSFSHIASDNQNHQMSLYSAGTEYNNGVLEYDLYYNTDDFLGFYYLTATFDADSYDGQRDAFLGMYRDEANPIAVANGRCSNSAQTCYNHCGALHKQFVLQPGEKVRFAVILGVGKGNGEKLRAKYQDLSQVDAAFAGIKQHWDERCAKFQVRSPNQGLDTMINAWTLYQAETCVVWSRFASFIEVGGRTGLGYRDTAQDAISVPHTNPAMTRKRLVDLLRGQVKAGYGLHLFDPDWFDPEKADVKPSKSPTVVPTPSDEDKIHGIKDTCSDDHLWIVPTILNFVKETGDLSFIDEVIPYADGGDATVYQHMMAALDFSAEYVGQTGICKGLRADWNDCLNLGGGESAMVSFLHFWALEAFLELARHRQDAAAIDKYQAMANGVREACETHLWDDNGGWYIRGLTKDGDKIGTFEQQEGKVHLESNTLAVLSGAVSQQRGEKAMDAVYEYLFSPYGLHLNAPSFATPNDDIGFVTRVYQGVKENGAIFSHPNPWAWVAEAKLGRGDRAMEFYDSLNPYNQNDIIETRVAEPYSYVQFIMGRDHQDHGRANHPWLTGTSGWAYYATTNFILGVRTGFDTLTVDPCIPAAWSGFEVTREWRGATYHISVQNPNGVS",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: N,N'-diacetylchitobiose + phosphate = N-acetyl-alpha-D-   glucosamine 1-phosphate + N-acetyl-D-glucosamine.",
-        "split": "test",
+        "split": "train",
         "metadata": "N,N'-diacetylchitobiose + phosphate = N-acetyl-alpha-D-   glucosamine 1-phosphate + N-acetyl-D-glucosamine"
     },
     {
@@ -654,77 +654,77 @@
         "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
         "sequence": "MAAKMKKGALVRAVKETLENSLEAQASDSRFPSYLFDSKGEILDLTDEYALVRFYVPTPSVWLRLDQLELAE",
         "description": "Evaluation of the protein sequence indicates that the associated enzyme exhibits catalytic activity in the form of this chemical reaction: a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+).",
-        "split": "test",
+        "split": "train",
         "metadata": "a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+)"
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MSTTVLPPPDKKAEYVERMFSRIAPGYDTMNGIITLGLDREWRATTVALAAPPSCGRALDIGTGTGDFLVELTAWMPDGLAVGVDFTVPMMRAGLPKIRDRRAVFVAGDALKLPFADESFDAITTGFTLRNVTDIAAAFREMWRVARVGATVACLEVARPRHPLLRAGHWFYFQRIVPLMARALGADPEAYTYLPQSARIFPPPEELAQIMRAAGWSDVTYRLVGLGAAAIHTGIKRG",
         "description": "Upon reviewing the provided protein sequence, the corresponding enzyme's catalytic activity is identified as the following chemical reaction: a 2-demethylmenaquinol + S-adenosyl-L-methionine = a   menaquinol + H(+) + S-adenosyl-L-homocysteine.",
-        "split": "test",
+        "split": "train",
         "metadata": "a 2-demethylmenaquinol + S-adenosyl-L-methionine = a   menaquinol + H(+) + S-adenosyl-L-homocysteine"
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MQSPERITPYDTECPKNEQVEAMFNHIAGHYDRLNHLFSWGMDRVWRQKAIRMIEPFAPHTVLDVATGTGDLAIEICRHIPSVKQVTGVDLSLEMMRIGEQKVRSENLDNRITFMQKDCLDLPFADHSFDAVTVAFGLRNFQNIKLGLEEMYRVLNEGAPLMILELSRPVSFPWKQGYNFYASHVIPVVGRFLSQDAEAYTYLPESIAAMPQREELADLMLSVGFREAYYRSLSLEVATVYMGLK",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: a 2-demethylmenaquinol + S-adenosyl-L-methionine = a   menaquinol + H(+) + S-adenosyl-L-homocysteine.",
-        "split": "test",
+        "split": "train",
         "metadata": "a 2-demethylmenaquinol + S-adenosyl-L-methionine = a   menaquinol + H(+) + S-adenosyl-L-homocysteine"
     },
     {
         "instruction": "Given the protein sequence below, please analyze and describe the catalytic activity of the corresponding enzyme, specifically the chemical reaction it catalyzes: ",
         "sequence": "MGLLSEGSPLSWEETKALADHVREHGVNQFINLYHRLKDRQGDILKWGDEVEYIIVKFDDEQKVARVALRAQDLLAQLNEKELADPNGVKSLWRPEYGAYMIEGTPGKPFGGLMAHFNLVEANMRYRREEVTELLAKDECVMSITNFPRLGAPNFTYPLAQPRPEDPLSSARSLYFPDEAIFPGHPRFKTLTRNIRKRRGEKVSIKLKVFKDTKTKLPVEGAPPGEPDVVLLDAMGFGMGCCCLQLTFQACNITEARRLYDQLAPLCPIMLALTAASPIYRGYLTESDCRWNVISSSVDCRTEEERGLAPLDQQKFRIAKSRYDSIDSYLSPEGAKYNDVPLTYDEKVYQRLVEGGIDHLLAQHVAHLFIRDTVSLFSEKVHQNDNEDTDHFENIQSTNWQTMRFKPPPPNSSIGWRVEFRPCEAQISDFENAAIVCFVVLLTRVILSYQLNFLTPISKVDENMQTAQKRDACRKEKFWFRKSSKTTEQRAAKAQAQAQAQAKAQAQTNGKATLNGNGLANGNGNGSENSDQEEQQPLTNGSAKMNGHGSGTTNGTNGSSNGSSNGTDSDHTDTDDEENELFQLLSINEIFNGKPNVFPGLVPLIRSYLQSMEVDTDTHCTIEQYLRFIQKRAAGELITTATWMREQVLSHPDYKQDSVVSERINYDLLKRIQGIQEGKQVEPALLGQDYHSKTKTKDFIPPALQKQLAKNGCCEEK",
         "description": "Evaluation of the protein sequence indicates that the associated enzyme exhibits catalytic activity in the form of this chemical reaction: ATP + L-cysteine + L-glutamate = ADP + gamma-L-glutamyl-L-   cysteine + H(+) + phosphate.",
-        "split": "test",
+        "split": "train",
         "metadata": "ATP + L-cysteine + L-glutamate = ADP + gamma-L-glutamyl-L-   cysteine + H(+) + phosphate"
     },
     {
         "instruction": "Please evaluate the following protein sequence and provide an explanation of the enzyme's catalytic activity, including the chemical reaction it facilitates: ",
         "sequence": "MTFSEILDRVGSMGPFQYLHVTLLALPVLGIANHNLLQIFTATTPVHHCRPPPNASIGPWVLPLDPNGKPEKCLRFVHLPNASLPNDTQRATEPCLDGWIYNSTRDTIVIEWDLVCSSNKLKEMAQSIFMAGILVGGPVIGELSDRFGRKPILTWSYLMLAASGSGAAFSPSLPVYMIFRFLCGCSISGISLSTVILNVEWVPTSMRAISSTSIGYCYTIGQFILSGLAYAIPQWRWLQLTSSAPFFIFSLLSWWVPESIRWLVLSGKYSKALKTLQRVATFNGKKEEGKKLTIEELKFNLQKDITSAKVKYGLSDLFRVSILRRVTFCLSLAWFSTGFAYYSLAMGVEEFGVNIYILQIIFGGVDIPAKFITILSLSYLGRRITQSFLLLLAGGAILALIFVPSEMQLLRTALAVFGKGCLSGSFSCLFLYTSELYPTVLRQTGMGISNVWARVGSMIAPLVKITGELQPFIPNVIFGTTALLGGSAAFFLLETLNRPLPETIEDIQNWHKQVQKTKQESEAEKASQIIPLKTGG",
         "description": "An analysis of the protein sequence reveals that the enzyme's catalytic function corresponds to the chemical reaction: 2-oxoglutarate(in) + dehydroepiandrosterone 3-sulfate(out) =   2-oxoglutarate(out) + dehydroepiandrosterone 3-sulfate(in).",
-        "split": "test",
+        "split": "train",
         "metadata": "2-oxoglutarate(in) + dehydroepiandrosterone 3-sulfate(out) =   2-oxoglutarate(out) + dehydroepiandrosterone 3-sulfate(in)"
     },
     {
         "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
         "sequence": "MAFQDLLDQVGGLGRFQILQMLLLCISSLITYPHILLENFTAAVPGHQCWVHILNNNTDSANATGTLSPDALLRISIPLDSNLRPEKCRRFSRPQWQLLNLNRTFPNITDLDTESCVDGWVYDQSIFTSTIVTEWDLVCESQSLKSMAKFLFMAGMLVGSIVYGHLSDRFGRRLIFRCCLLQLAITDTSAAFAPTYLIYCSLRFLAGFSTMSILTNCTVLIVEWTVPRFQVMGMTLSICAACLGQIILGGLAFAIRDWHTLQLVFSVPLFVLFLSSRWLAESARWLIITNRPEEGLKELKKAAHRNGRKNAGDALTMEVLRSAMQEELEAAQIKSSVFDLFRTPNLRKRICLLSFVRFANFMSFFGLILHLQYMGSNVFLFQVLFGAVNLPANCVAFWALNHLGRQVSQTLFLFLLGISILAITFVPQEMQTLRMAVSALGIAVSSVTLMCSFAHGNELTPTVLRVTASGFLGIASNIGAALAPLLMILTVYSPHLPWIIYGVCSILGGLVVPLLPETRNKPLPDSIQEVEKERKDSRKAKPEGTFMKVTQF",
         "description": "Evaluation of the protein sequence indicates that the associated enzyme exhibits catalytic activity in the form of this chemical reaction: dehydroepiandrosterone 3-sulfate(in) + pentanoate(out) =   dehydroepiandrosterone 3-sulfate(out) + pentanoate(in).",
-        "split": "test",
+        "split": "train",
         "metadata": "dehydroepiandrosterone 3-sulfate(in) + pentanoate(out) =   dehydroepiandrosterone 3-sulfate(out) + pentanoate(in)"
     },
     {
         "instruction": "Please evaluate the following protein sequence and provide an explanation of the enzyme's catalytic activity, including the chemical reaction it facilitates: ",
         "sequence": "MPSYGNLGRLGGRHEYGVLVAMTSSAELDRVRWAHQLRSYRIASVLRIGVVGLMVAAMVVGTSRSEWPQQIVLIGVYAVAALWALLLAYSASRRFFALRRFRSMGRLEPFAFTAVDVLILTGFQLLSTDGIYPLLIMILLPVLVGLDVSTRRAAVVLACTLVGFAVAVLGDPVMLRAIGWPETIFRFALYAFLCATALMVVRIEERHTRSVAGLSALRAELLAQTMTASEVLQRRIAEAIHDGPLQDVLAARQELIELDAVTPGDERVGRALAGLQSASERLRQATFELHPAVLEQVGLGPAVKQLAASTAQRSGIKISTDIDYPIRSGIDPIVFGVVRELLSNVVRHSGATTASVRLGITDEKCVLDVADDGVGVTGDTMARRLGEGHIGLASHRARVDAAGGVLVFLATPRGTHVCVELPLKR",
         "description": "An analysis of the protein sequence reveals that the enzyme's catalytic function corresponds to the chemical reaction: ATP + protein L-histidine = ADP + protein N-phospho-L-   histidine..",
-        "split": "test",
+        "split": "train",
         "metadata": "ATP + protein L-histidine = ADP + protein N-phospho-L-   histidine."
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MRDYDEVTAFLGEWGPFQRLIFFLLSASIIPNGFTGLSSVFLIATPEHRCRVPDAANLSSAWRNHTVPLRLRDGREVPHSCRRYRLATIANFSALGLEPGRDVDLGQLEQESCLDGWEFSQDVYLSTIVTEWNLVCEDDWKAPLTISLFFVGVLLGSFISGQLSDRFGRKNVLFVTMGMQTGFSFLQIFSKNFEMFVVLFVLVGMGQISNYVAAFVLGTEILGKSVRIIFSTLGVCIFYAFGYMVLPLFAYFIRDWRMLLVALTMPGVLCVALWWFIPESPRWLISQGRFEEAEVIIRKAAKANGIVVPSTIFDPSELQDLSSKKQQSHNILDLLRTWNIRMVTIMSIMLWMTISVGYFGLSLDTPNLHGDIFVNCFLSAMVEVPAYVLAWLLLQYLPRRYSMATALFLGGSVLLFMQLVPPDLYYLATVLVMVGKFGVTAAFSMVYVYTAELYPTVVRNMGVGVSSTASRLGSILSPYFVYLGAYDRFLPYILMGSLTILTAILTLFLPESFGTPLPDTIDQMLRVKGMKHRKTPSHTRMLKDGQERPTILKSTAF",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: L-glutamyl-L-arginyl-glycyl-L-methionyl-L-threonine(out) +   Na(+)(out) = L-glutamyl-L-arginyl-glycyl-L-methionyl-L-threonine(in)   + Na(+)(in).",
-        "split": "test",
+        "split": "train",
         "metadata": "L-glutamyl-L-arginyl-glycyl-L-methionyl-L-threonine(out) +   Na(+)(out) = L-glutamyl-L-arginyl-glycyl-L-methionyl-L-threonine(in)   + Na(+)(in)"
     },
     {
         "instruction": "Please evaluate the following protein sequence and provide an explanation of the enzyme's catalytic activity, including the chemical reaction it facilitates: ",
         "sequence": "MTHSSSNEHEKEDDRRASDDMMDRDDQNAKEEQDVSKDAPPVNPWDPSQFPDGGFKAWSVVAGGFCSLFCSFGWINCIGIFQQYYQSDYLRGYSSSTISWIASLELFILFAGGLVVGRVYDRYGPRYILLFGTFMHVFGLMMASLSTEYYQILLSQGICSPIGISCLFTPAVNCIATWFRKKRGLANGIVAAGSSLGGVIFPIMFDRLIPRVGFPWAMRIGAFLILFLLIIANLTVVSRIPPMPKPITAKQYLAPFQERTYLLTTIAAMIFVLGLFLPINYIQAQAVEFGMDPSLANYLIPILNAASLFGRTVPGFVADKIGPYNVHTFMCFFSSVVAFALWLPAASNAPIIVFAALYGFGSGAFVAILPTLIAQISDIKEIGLRIGMEFGVLSLPALVSNPIGGAFVAHDNGGYRSCQIWTGCITMLGAILFVVARISLGGPSLMKKV",
         "description": "Evaluation of the protein sequence indicates that the associated enzyme exhibits catalytic activity in the form of this chemical reaction: deoxyerythrostominol(in) = deoxyerythrostominol(out).",
-        "split": "test",
+        "split": "train",
         "metadata": "deoxyerythrostominol(in) = deoxyerythrostominol(out)"
     },
     {
         "instruction": "Examine the provided protein sequence and determine the catalytic activity of the enzyme it represents, focusing on the chemical reaction it promotes: ",
         "sequence": "MPRAFNFSAGPSAIPEEVLREAAAEMLDYKGSGMSVMEMSHRSQAYQAIIDDAEATLRRIMAIPDNYRVLFMQGGATLQFAAVPMNLMRGRHAGYLVSGNWSKKAWLEACKYGQADVLASSEDTSFDRVPTLASPVDQGLDYVYLCQNETVYGTMYHDLPDTGGVPLVADLSSMFLSCPVDVSRYGLIFAGVQKNAGPAGNTIVIVRDDLLGDVPALGDVVPTYMGYRLQASKGSMYNTPNTWGIYLCGKVFHWIEESGGLVAMRERNWKKVNRLYDYLDQSALFSPLAQGPSRSIANVTFRAPSPELDAAFVAGAAERNIVGIKGHRVLGGLRASCYNAVPAKAIDALLAYMADFESTRADAADAADNPSNANANATSPSALPRSS",
         "description": "An analysis of the protein sequence reveals that the enzyme's catalytic function corresponds to the chemical reaction: 2-oxoglutarate + O-phospho-L-serine = 3-phosphooxypyruvate +   L-glutamate.",
-        "split": "test",
+        "split": "train",
         "metadata": "2-oxoglutarate + O-phospho-L-serine = 3-phosphooxypyruvate +   L-glutamate"
     },
     {
         "instruction": "Given the protein sequence below, please analyze and describe the catalytic activity of the corresponding enzyme, specifically the chemical reaction it catalyzes: ",
         "sequence": "MPNTAMKKKVLLMGKSGSGKTSMRSIIFANYIARDTRRLGATIDVEHSHVRFLGNLVLNLWDCGGQDTFMENYFTSQRDNIFRNVEVLIYVFDVESRELEKDMHYYQSCLEAILQNSPDAKIFCLVHKMDLVQEDQRDLIFKEREEDLRRLSRPLECACFRTSIWDETLYKAWSSIVYQLIPNVQQLEMNLRNFAQIIEADEVLLFERATFLVISHYQCKEQRDVHRFEKISNIIKQFKLSCSKLAASFQSMEVRNSNFAAFIDIFTSNTYVMVVMSDPSIPSAATLINIRNARKHFEKLERVDGPKHSLLMR",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: GTP + H2O = GDP + H(+) + phosphate.",
-        "split": "test",
+        "split": "train",
         "metadata": "GTP + H2O = GDP + H(+) + phosphate"
     }
 ]

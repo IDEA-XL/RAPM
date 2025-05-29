@@ -549,63 +549,63 @@
         "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
         "sequence": "GLDLGLSRGFSGSQAAKHLMGLAAANYAGGP",
         "description": "A short report on the protein with the given amino acid sequence highlights: Regulation of fluid secretion. Stimulates primary urine secretion by the Malpighian tubules. Increases the frequency of contraction in the heart and hindgut. Causes a dose-dependent stimulation of cAMP levels in the dorsal vessel and hindgut, but not in Malpighian tubules. Has synergistic effects on urine secretion by Malpighian tubules with serotonin.",
-        "split": "test",
+        "split": "train",
         "metadata": "Regulation of fluid secretion. Stimulates primary urine secretion by the Malpighian tubules. Increases the frequency of contraction in the heart and hindgut. Causes a dose-dependent stimulation of cAMP levels in the dorsal vessel and hindgut, but not in Malpighian tubules. Has synergistic effects on urine secretion by Malpighian tubules with serotonin."
     },
     {
         "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
         "sequence": "MPSQKSPTKRSPTKRSPQKGGKGAKR",
         "description": "A short report on the protein with the given amino acid sequence highlights: Core component of nucleosome. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability. DNA accessibility is regulated via a complex set of post-translational modifications of histones, also called histone code, and nucleosome remodeling.",
-        "split": "test",
+        "split": "train",
         "metadata": "Core component of nucleosome. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability. DNA accessibility is regulated via a complex set of post-translational modifications of histones, also called histone code, and nucleosome remodeling."
     },
     {
         "instruction": "Analyze the protein with the following sequence and describe its properties: ",
         "sequence": "MSAATEQQNNGDVAVEKVAADDVSAVKDDLKAKAAAEDKAAAADAAGDAADNGTSKDGEDAADAAAAAPAKESVKGTKRPAEAKSAESKKAKKAAAADGDSDEEEALEEIIEGDSEIESDEYDIPYDGEEDDIECDDDDDDNDDGSGSDDQA",
         "description": "A concise description of the protein with the specified amino acid sequence includes: Negatively regulates tyramine beta-hydroxylase tbh and thus the conversion of tyramine (TA) to octopamine (OA). In tyrosine decarboxylase 2 (Tdc2) neurons, acts in an amine-mediated signaling pathway to negatively regulate acute ethanol sensitivity probably via tbh-mediated depletion of TA.",
-        "split": "test",
+        "split": "train",
         "metadata": "Negatively regulates tyramine beta-hydroxylase tbh and thus the conversion of tyramine (TA) to octopamine (OA). In tyrosine decarboxylase 2 (Tdc2) neurons, acts in an amine-mediated signaling pathway to negatively regulate acute ethanol sensitivity probably via tbh-mediated depletion of TA."
     },
     {
         "instruction": "Analyze the protein with the following sequence and describe its properties: ",
         "sequence": "MAFFTGLWGPFTCVSRVLSHHCFSTTGSLSAIQKMTRVRVVDNSALGNSPYHRAPRCIHVYKKNGVGKVGDQILLAIKGQKKKALIVGHCMPGPRMTPRFDSNNVVLIEDNGNPVGTRIKTPIPTSLRKREGEYSKVLAIAQNFV",
         "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Forms part of 2 intersubunit bridges in the assembled ribosome. Upon binding to MALSU1 intersubunit bridge formation is blocked, preventing ribosome formation and repressing translation (Probable).",
-        "split": "test",
+        "split": "train",
         "metadata": "Forms part of 2 intersubunit bridges in the assembled ribosome. Upon binding to MALSU1 intersubunit bridge formation is blocked, preventing ribosome formation and repressing translation (Probable)."
     },
     {
         "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
         "sequence": "MDTEEIKEEMQEAAEAAIENAVETAELETAAIKAEGAAAAAEQSAEQAAVMAATLAASVEANAAQQIAEHSEQVQTQEEKISWLENQVMAMASNLQMMQEAVTALTVSQSLTPEPSPVPAVEVEAMPEAVTVEILPESAGDQQEAEPVPSVGDQQETAPRKRFRAI",
         "description": "A concise description of the protein with the specified amino acid sequence includes: Together with the packaging ATPase P9, forms the external part of the portal vertex that is embeded in the capsid and which plays critical roles in genome packaging and genome ejection. Both proteins multimerize as a single ring-shaped heterdodecamer arranged around a central channel.",
-        "split": "test",
+        "split": "train",
         "metadata": "Together with the packaging ATPase P9, forms the external part of the portal vertex that is embeded in the capsid and which plays critical roles in genome packaging and genome ejection. Both proteins multimerize as a single ring-shaped heterdodecamer arranged around a central channel."
     },
     {
         "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
         "sequence": "MALKTLQALIFLGLFAASCLAQAPAPAPITFLPPVESPSPVVTPTAEPPAPVASPPIPANEPTPVPTTPPTVSPPTTSPTTSPVASPPKPYALAPGPSGPTPAPAPAPRADGPVADSALTNKAFLVSTVIAGALYAVLA",
         "description": "A concise description of the protein with the specified amino acid sequence includes: Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death.",
-        "split": "test",
+        "split": "train",
         "metadata": "Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death."
     },
     {
         "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
         "sequence": "MSVSRLFSNPKFVYPLVGATIGSIGLAYYSTQAQFYIANETGKTFTGGDQWIDLKLKKSEDLTHNTKHLTFELLNPDDVSGLITASMLMTKYVTPKGNNVIRPYTPVSDPDQKGTLDFVIKRYENGKMSNHIHNLKEGETLSFKGPVVKWKWEPNQFKSIALIGGGTGITPLYQLLREITSNPEDKTKVSLIYGNTSPEDVLIKDRIDDIAAKHKDQVKVTYFVDENKATKDWEGEVGFITKEFLEKELDKPSPDFKIFVCGPPGLYKAISGVKVSPTDQGEVEGALKDLGFSKEHVFKF",
         "description": "A short report on the protein with the given amino acid sequence highlights: May mediate the reduction of outer membrane cytochrome b5.",
-        "split": "test",
+        "split": "train",
         "metadata": "May mediate the reduction of outer membrane cytochrome b5."
     },
     {
         "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
         "sequence": "MDKQKIADSIRAVYNYKPGVIFRDITTLIGDAEVFKEVINILRSRYENQSIDFIAAIEARGFIFGSALAYALGIGFVPIRKKGKLPYNTISEKYTLEYGTDELHIHTDAFRDKKNAKVVLIDDLIATGGTAEASVKLIKSIGAQCVEAAFVINLKGLEGEKKLAPYTQVFSIVEYEGK",
         "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Catalyzes a salvage reaction resulting in the formation of AMP, that is energically less costly than de novo synthesis.",
-        "split": "test",
+        "split": "train",
         "metadata": "Catalyzes a salvage reaction resulting in the formation of AMP, that is energically less costly than de novo synthesis."
     },
     {
         "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
         "sequence": "MARLFVVVALLALAVGTVFAADAPSAAPTASPTKSPTKAPAAAPKSSAAAPKASSPVAEEPTPEDDYSAASPSDSAEAPTVSSPPAPTPEADGPSSDGPSSDGPAAAESPKSGATTNVKLSIAGTVAAAGFFIFSL",
         "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death.",
-        "split": "test",
+        "split": "train",
         "metadata": "Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death."
     },
     {
@@ -689,42 +689,42 @@
         "instruction": "Analyze the protein with the following sequence and describe its properties: ",
         "sequence": "MEKLSSKDKELIRGSWDSLGKNKVPHGVILFSRLFELDPELLNLFHYTTNCGSTQDCLSSPEFLEHVTKVMLVIDAAVSHLDDLHSLEDFLLNLGRKHQAVGVKPQSFAMVGESLLYMLQCSLGQAYTASLRQAWLNMYSVVVASMSRGWAKNGEDKAD",
         "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Involved in oxygen transport in the brain. Hexacoordinate globin, displaying competitive binding of oxygen or the distal His residue to the iron atom. Capable of penetrating cell membranes .",
-        "split": "test",
+        "split": "train",
         "metadata": "Involved in oxygen transport in the brain. Hexacoordinate globin, displaying competitive binding of oxygen or the distal His residue to the iron atom. Capable of penetrating cell membranes ."
     },
     {
         "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
         "sequence": "INLLKIAKGIIKSL",
         "description": "A concise description of the protein with the specified amino acid sequence includes: Mast cell degranulating peptide. Also permeates anionic liposomes. Has little hemolytic activity. Has an amphiphilic alpha- helix conformation. Shows broad-spectrum antimicrobial activity against the Gram-positive bacteria S.aureus ATCC 6538 (MIC=5 ug/ml), S.saprophyticus CS (MIC=5 ug/ml), S.epidermidis CS (MIC=5 ug/ml), B.subtilis CCT 2471 (MIC=40 ug/ml), and the Gram-negative bacteria E.coli CCT 1371 (MIC=20 ug/ml), E.coli ATCC 25922 (MIC=50 ug/ml), and P.aeruginosa ATCC 15442 (MIC=20 ug/ml). Blocks the lobster neuromuscular transmission. Induces the depolarization of the muscle membrane.",
-        "split": "test",
+        "split": "train",
         "metadata": "Mast cell degranulating peptide. Also permeates anionic liposomes. Has little hemolytic activity. Has an amphiphilic alpha- helix conformation. Shows broad-spectrum antimicrobial activity against the Gram-positive bacteria S.aureus ATCC 6538 (MIC=5 ug/ml), S.saprophyticus CS (MIC=5 ug/ml), S.epidermidis CS (MIC=5 ug/ml), B.subtilis CCT 2471 (MIC=40 ug/ml), and the Gram-negative bacteria E.coli CCT 1371 (MIC=20 ug/ml), E.coli ATCC 25922 (MIC=50 ug/ml), and P.aeruginosa ATCC 15442 (MIC=20 ug/ml). Blocks the lobster neuromuscular transmission. Induces the depolarization of the muscle membrane."
     },
     {
         "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
         "sequence": "APLTNEYLNHLCHKC",
         "description": "Here is a summary of the protein with the given amino acid sequence: Major component of the pollen coat.",
-        "split": "test",
+        "split": "train",
         "metadata": "Major component of the pollen coat."
     },
     {
         "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
         "sequence": "LVSGCADLTALAAR",
         "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Removal of H(2)O(2), oxidation of toxic reductants, biosynthesis and degradation of lignin, suberization, auxin catabolism, response to environmental stresses such as wounding, pathogen attack and oxidative stress. These functions might be dependent on each isozyme/isoform in each plant tissue.",
-        "split": "test",
+        "split": "train",
         "metadata": "Removal of H(2)O(2), oxidation of toxic reductants, biosynthesis and degradation of lignin, suberization, auxin catabolism, response to environmental stresses such as wounding, pathogen attack and oxidative stress. These functions might be dependent on each isozyme/isoform in each plant tissue."
     },
     {
         "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
         "sequence": "MANDCKCPNGCSCPNCANGGCQCGDKCECKKQSCHGCGEQCKCGSHGSSCHGSCGCGDKCECK",
         "description": "A short report on the protein with the given amino acid sequence highlights: The metallothioneins are involved in the cellular sequestration of toxic metal ions.",
-        "split": "test",
+        "split": "train",
         "metadata": "The metallothioneins are involved in the cellular sequestration of toxic metal ions."
     },
     {
         "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
         "sequence": "GVFCGEACAQASCSIAGCECIAGLCYKN",
         "description": "A short report on the protein with the given amino acid sequence highlights: Probably participates in a plant defense mechanism.",
-        "split": "test",
+        "split": "train",
         "metadata": "Probably participates in a plant defense mechanism."
     },
     {
@@ -738,14 +738,14 @@
         "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
         "sequence": "MEYVYAALILNESDEEVNEENITAVLEAAGVDVEESRVKALVAALEDVDIEEAIETAAAAPAPAAGGSAGGEVEAADDDDEEDAEEEAADEGGDDDGDDDEEADGEGLGALFG",
         "description": "A short report on the protein with the given amino acid sequence highlights: Forms part of the ribosomal stalk, playing a central role in the interaction of the ribosome with GTP-bound translation factors.",
-        "split": "test",
+        "split": "train",
         "metadata": "Forms part of the ribosomal stalk, playing a central role in the interaction of the ribosome with GTP-bound translation factors."
     },
     {
         "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
         "sequence": "MFFISKLSLSNIHVRLTAKGLLRNLQLLSGCKLAVGFLAVDKNKSRTNSKNPQPPTNGQPDLVPPESKSRNVEYYKAQCEKKNQTIRQLENTLLSNNRRFEAVAVVIKHLYAEHDEVMKQRRDLSQELVTLREELVSSGHSCERLEQEKEDLRSAFDGVLQKVQEQHRLDLADLEERLKTFYSTEWEKVHQAYQEEADKCKAQMEQQLEEIRSKHEALKKELESSHIEEVDGLKQQFEESFKGFKQSHEKEMQNLNETLKESEETLSNQIQDLMTENDSLKEKLNAEVKRRMELAEKTQDSHTLYLEQELESLKVVLDIKNKQIHEQDKKLMQIDKLMERNVKLDECLKKLQQENEDLKARMDRHAALSRQLSTEQAVLQESLQKESKVNKRLSMENEELLWKLHNGDLNSPRKISPSPSLNLQSPRTSGMFSSPPVSPR",
         "description": "A concise description of the protein with the specified amino acid sequence includes: May inhibit cell proliferation.",
-        "split": "test",
+        "split": "train",
         "metadata": "May inhibit cell proliferation."
     }
 ]
