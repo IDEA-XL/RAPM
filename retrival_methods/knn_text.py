@@ -148,9 +148,6 @@ def evaluation(lines, labels, meta_labels, task_name):
     print('rougeL:', rouge_l, file=result_file)
     print("Exact Match:", total_exact_match / len(lines), file=result_file)
         
-    with open(f"{task_name}_meta_list.txt", "w") as f:
-        for i in range(len(vis_meta_bleu_scores)):
-            f.write(f"{vis_meta_bleu_scores[i]}\n")
 
     
 

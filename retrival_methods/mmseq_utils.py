@@ -102,8 +102,7 @@ def align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, task_nam
     
     tsv = pd.read_csv("result.m8", sep="\t", header=None)
 
-    output_file = f"{task_name}_ali_res_with_info.txt"
-    # 解析目标序列信息并写入输出文件
+    # output_file = f"{task_name}_ali_res_with_info.txt"
     
     c0, c1 = 0, 0
     
@@ -112,42 +111,38 @@ def align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, task_nam
     
     not_sim_ids = []
     
-    with open(output_file, "w") as f:
+    # with open(output_file, "w") as f:
         
-        for query, target in tsv[[0, 1]].values:
+    #     for query, target in tsv[[0, 1]].values:
             
-            # print(query, target)
+    #         # print(query, target)
             
-            query_seq, query_fun = test_seqs[int(query.split("_")[1])], test_labels[int(query.split("_")[1])]
-            target_seq, target_fun = train_seqs[int(target.split("_")[1])], train_labels[int(target.split("_")[1])]
+    #         query_seq, query_fun = test_seqs[int(query.split("_")[1])], test_labels[int(query.split("_")[1])]
+    #         target_seq, target_fun = train_seqs[int(target.split("_")[1])], train_labels[int(target.split("_")[1])]
 
-            order_query_fun[int(query.split("_")[1])] = target_fun
+    #         order_query_fun[int(query.split("_")[1])] = target_fun
             
-            f.write(f"Query  Sequence: {query_seq} \n")
-            f.write(f"Target Sequence: {target_seq} \n")
+    #         f.write(f"Query  Sequence: {query_seq} \n")
+    #         f.write(f"Target Sequence: {target_seq} \n")
             
-            # 输出序列比对结果
-            align_result = Bio.Align.PairwiseAligner().align(query_seq, target_seq)
-            f.write(f"Alignment Result: {align_result}\n")
+    #         align_result = Bio.Align.PairwiseAligner().align(query_seq, target_seq)
+    #         f.write(f"Alignment Result: {align_result}\n")
             
             
-            f.write(f"Query  Function: {query_fun} \n")
-            f.write(f"Target Function: {target_fun}\n")
+    #         f.write(f"Query  Function: {query_fun} \n")
+    #         f.write(f"Target Function: {target_fun}\n")
             
-            f.write(f"Simularity: {query_fun} vs {target_fun}\n")
-            if query_fun == target_fun: 
-                c1 += 1
-            else:
-                not_sim_ids.append(int(query.split("_")[1]))
-            c0 += 1
+    #         f.write(f"Simularity: {query_fun} vs {target_fun}\n")
+    #         if query_fun == target_fun: 
+    #             c1 += 1
+    #         else:
+    #             not_sim_ids.append(int(query.split("_")[1]))
+    #         c0 += 1
 
-            f.write("---------------\n")
+    #         f.write("---------------\n")
 
     # print(f"Average Similarity: {sum(avg_rg) / len(avg_rg):.4f}")
     print(f"Total Similarity: {c1/c0:.4f}")
-    
-    # query_funs.append(query_fun)
-    # target_funs.append(target_fun)
     
     missed_num = 0
     with open(f"{task_name}_predicted.tsv", "w") as f:

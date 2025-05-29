@@ -535,14 +535,14 @@
         "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
         "sequence": "SPATMGFAGVR",
         "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Myoactive peptide. Increases the amplitude and frequency of spontaneous contractions and tonus of hindgut muscle.",
-        "split": "test",
+        "split": "train",
         "metadata": "Myoactive peptide. Increases the amplitude and frequency of spontaneous contractions and tonus of hindgut muscle."
     },
     {
         "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
         "sequence": "TQSTGTSQTIAVGLWGGPDN",
         "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Alpha-methyl-D-mannoside and D-mannose specific lectin. Binds IgA.",
-        "split": "test",
+        "split": "train",
         "metadata": "Alpha-methyl-D-mannoside and D-mannose specific lectin. Binds IgA."
     },
     {
