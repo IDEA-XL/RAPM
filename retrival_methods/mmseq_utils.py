@@ -111,35 +111,19 @@ def align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, task_nam
     
     not_sim_ids = []
     
-    # with open(output_file, "w") as f:
+    for query, target in tsv[[0, 1]].values:
+                
+        query_seq, query_fun = test_seqs[int(query.split("_")[1])], test_labels[int(query.split("_")[1])]
+        target_seq, target_fun = train_seqs[int(target.split("_")[1])], train_labels[int(target.split("_")[1])]
+
+        order_query_fun[int(query.split("_")[1])] = target_fun
         
-    #     for query, target in tsv[[0, 1]].values:
-            
-    #         # print(query, target)
-            
-    #         query_seq, query_fun = test_seqs[int(query.split("_")[1])], test_labels[int(query.split("_")[1])]
-    #         target_seq, target_fun = train_seqs[int(target.split("_")[1])], train_labels[int(target.split("_")[1])]
+        if query_fun == target_fun: 
+            c1 += 1
+        else:
+            not_sim_ids.append(int(query.split("_")[1]))
+        c0 += 1
 
-    #         order_query_fun[int(query.split("_")[1])] = target_fun
-            
-    #         f.write(f"Query  Sequence: {query_seq} \n")
-    #         f.write(f"Target Sequence: {target_seq} \n")
-            
-    #         align_result = Bio.Align.PairwiseAligner().align(query_seq, target_seq)
-    #         f.write(f"Alignment Result: {align_result}\n")
-            
-            
-    #         f.write(f"Query  Function: {query_fun} \n")
-    #         f.write(f"Target Function: {target_fun}\n")
-            
-    #         f.write(f"Simularity: {query_fun} vs {target_fun}\n")
-    #         if query_fun == target_fun: 
-    #             c1 += 1
-    #         else:
-    #             not_sim_ids.append(int(query.split("_")[1]))
-    #         c0 += 1
-
-    #         f.write("---------------\n")
 
     # print(f"Average Similarity: {sum(avg_rg) / len(avg_rg):.4f}")
     print(f"Total Similarity: {c1/c0:.4f}")
