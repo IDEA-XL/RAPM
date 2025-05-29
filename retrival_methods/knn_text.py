@@ -152,69 +152,11 @@ def evaluation(lines, labels, meta_labels, task_name):
         for i in range(len(vis_meta_bleu_scores)):
             f.write(f"{vis_meta_bleu_scores[i]}\n")
 
-def UniProtQA():
-    TRAIN_JSON = "/home/wujuntong/MinSimPro/ProteinText/UniProtQA/train.json"
-    TEST_JSON = "/home/wujuntong/MinSimPro/ProteinText/UniProtQA/test.json"
     
-    train_dic = json.load(open(TRAIN_JSON, "r"))
-    test_dic = json.load(open(TEST_JSON, "r"))
-
-    all_pred_labels, all_test_labels, all_percent = [], [], []
-    for task in ['What is the function of this protein?',
-                 'What are the official names of this protein?',
-                 'What is the protein family that this protein belongs to?',
-                 'What are the subcellular locations of this protein?']:
-        
-        train_seqs = []
-        train_labels = []
-        for k, v in tqdm(train_dic.items()):
-            for qa in v["data"]:
-                if qa[0] == task:
-                    train_seqs.append(v["sequence"])
-                    train_labels.append(qa[1])
-        
-        test_seqs = []
-        test_labels = []
-        for k, v in tqdm(test_dic.items()):
-            for qa in v["data"]:
-                if qa[0] == task:
-                    test_seqs.append(v["sequence"])
-                    test_labels.append(qa[1])
-        
-        print (f"\n MMSeqs retrieval annots for {task} ...", file=result_file)
-        now_pred_labels, now_test_labels, now_percent = align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, task)
-        all_pred_labels.extend(now_pred_labels)
-        all_test_labels.extend(now_test_labels)
-        all_percent.append(now_percent)
-        
-    evaluation(all_pred_labels, all_test_labels, np.mean(all_percent))    
-
-def Swiss_Prot():
-    TRAIN_PATH= "/home/wujuntong/MinSimPro/ProteinText/OntoProteinDatasetV2/train.json"
-    TEST_PATH = "/home/wujuntong/MinSimPro/ProteinText/OntoProteinDatasetV2/test.json"
-    
-    train_dic = json.load(open(TRAIN_PATH, "r"))
-    test_dic = json.load(open(TEST_PATH, "r"))
-
-    train_seqs = [item["sequence"] for item in train_dic]
-    train_labels = [item["description"] for item in train_dic]
-
-    test_seqs = [item["sequence"] for item in test_dic]
-    test_labels = [item["description"] for item in test_dic]
-
-    print("\n MMSeqs retrieval annots for OntoProteinDatasetV2 ...", file=result_file)
-    pred_labels, test_labels = align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, "OntoProteinDatasetV2")
-    evaluation(pred_labels, test_labels, test_labels, "OntoProteinDatasetV2")
-    
-
 
 if __name__ == "__main__":
-
-    # Swiss_Prot()
-    # UniProtQA()
-    # exit()
     
-    JSON_FOLDER = "/home/wujuntong/MinSimPro/ProteinText/mol-inst-newsplit"
+    JSON_FOLDER = "../dataset"
     
     all_train_seqs = []
     all_train_labels = []
@@ -228,37 +170,22 @@ if __name__ == "__main__":
     task_ranges = []  # 新增：记录每个任务的test数据在all_test_seqs中的起止索引
     task_names = []
     for p in os.listdir(JSON_FOLDER):
-        if not p.endswith("new_OOD_OOD.json") : continue
-        # if p.endswith("new.json") : continue
-        if "design" in p : continue
 
         print("task: ", p[:-5])
         print(f"\n now task: {p}", file=result_file)
         JSON_PATH = os.path.join(JSON_FOLDER, p)
         dic = json.load(open(JSON_PATH, "r"))
-        
-        try:
-            train_dic = [d for d in dic if d["metadata"]["split"] == "train"]
-            test_dic = [d for d in dic if d["metadata"]["split"] == "test"]
-            
-            train_seqs = [d["input"][4:-4] for d in train_dic]
-            train_labels = [d["output"] for d in train_dic]
-            
-            test_seqs = [d["input"][4:-4] for d in test_dic]
-            test_labels = [d["output"] for d in test_dic]
-            
-            meta_list = [d["metadata"]["annots"] for d in test_dic]
-        except Exception as e:
-            train_dic = [d for d in dic if d["split"] == "train"]
-            test_dic = [d for d in dic if d["split"] == "test"]
-            
-            train_seqs = [d["sequence"] for d in train_dic]
-            train_labels = [d["description"] for d in train_dic]
-            # "description"
-            test_seqs = [d["sequence"] for d in test_dic]
-            test_labels = [d["description"] for d in test_dic]
 
-            meta_list = [d["metadata"] for d in test_dic]
+        train_dic = [d for d in dic if d["split"] == "train"]
+        test_dic = [d for d in dic if d["split"] == "test"]
+        
+        train_seqs = [d["sequence"] for d in train_dic]
+        train_labels = [d["description"] for d in train_dic]
+        # "description"
+        test_seqs = [d["sequence"] for d in test_dic]
+        test_labels = [d["description"] for d in test_dic]
+
+        meta_list = [d["metadata"] for d in test_dic]
         
         # for mixed evaluation
         start_idx = len(all_test_seqs)
@@ -271,39 +198,26 @@ if __name__ == "__main__":
         task_ranges.append((start_idx, end_idx))
         task_names.append(p[:-5])
         
-        print(p, len(train_seqs), len(train_labels), len(test_seqs), len(test_labels))
+        print(p, len(train_seqs), len(test_seqs))
         
-        # test_rouge_list = open(f"save_dir_{p[:-5]}_Llama-3.2-1B-Instruct_{p[:-5]}_rouge_l.txt").readlines()
-        # test_rouge_list = [float(x.strip()) for x in test_rouge_list]
-        
-        # print("tsne analysis ...")
-        # st_time = time.time()
-        # # tsne_analysis_rouge_score(test_seqs=test_seqs, test_rouges=test_rouge_list, task_name=p[:-5])
-        # random.shuffle(train_seqs)
-        # random.shuffle(test_seqs)
-        # tsne_analysis_train_test(train_seqs[:2000] , train_labels, test_seqs[:2000], test_labels, p[:-5])
-        # print("tsne analysis time: ", time.time() - st_time)
-
         print(f"\n ESM feature retrieval for {p[:-5]} ...", file=result_file)
         pred_labels, test_labels, acc = peer_knn_predict(train_seqs, test_seqs, train_labels, test_labels, p[:-5])
+        evaluation(pred_labels, test_labels, meta_list, p[:-5])
         
         print(f"\n MMSeqs retrieval annots for {p[:-5]} ...", file=result_file)
         pred_labels, test_labels = align_and_analyze(train_seqs, test_seqs, train_labels, test_labels, p[:-5])
+        evaluation(pred_labels, test_labels, meta_list, p[:-5])
         
-        # all_train_features.append(np.load(f"{p[:-5]}_train_features.npy"))
-        # all_test_features.append(np.load(f"{p[:-5]}_test_features.npy"))
-        
-    # evaluation(pred_labels, test_labels, meta_list)
-    
-    # all_train_features = np.concatenate(all_train_features, axis=0)
-    # all_test_features = np.concatenate(all_test_features, axis=0)
-    
-    # all_pred_labels = knn_predict(all_train_features, all_train_labels, all_test_features, k=1)
-        
+        all_train_features.append(np.load(f"{p[:-5]}_train_features.npy"))
+        all_test_features.append(np.load(f"{p[:-5]}_test_features.npy"))
+            
+    all_train_features = np.concatenate(all_train_features, axis=0)
+    all_test_features = np.concatenate(all_test_features, axis=0)
+            
     print (f"\n MMSeqs retrieval annots for all_task ...", file=result_file)
     all_pred_labels, all_test_labels = align_and_analyze(all_train_seqs, all_test_seqs, all_train_labels, all_test_labels, 'all')
     
-    # 按任务分开评测
+    # evaluate subtasks
     for (start, end), task_name in zip(task_ranges, task_names):
         task_name += "_all"
         print(f"\nEvaluation for task: {task_name}", file=result_file)

@@ -1,0 +1,751 @@
+[
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MVPLKRLLERLDVSAVVGGIQSEMRIGNITSDSRKASKDTLFVAVRGFVTDGHEFIGDAVSLGSKAVVCEELPETPAERVLFILVPDARRAMAQIAKAFYGDISDRLSIIGVTGTNGKTTTARLMAGMMNDCGIRTGYIGTGLALAGDEKILLERTTPEAEELHRLFSIMAERGCRAVVMEVSSHALVLQRTFGIVFSGAVYTNLTQDHLDFHHTMESYASAKRLLFGAVSPEGFVVVNADDPRAGFMAENRGKSRLYCCTVGDSHYACSEGKAFSATLLEAGLQAARVAIDADGRGYDVLFRLTGLFNVMNLLEVFASGVALGLEPEAVLRSLSTSSPVEGRMEIVRDAAGDFFAVVDYAHTPDALEKVIGTLNELKPEEGELIVVFGCGGNRDHEKRSVMGRIASRGADRLIITSDNPRDENPESILDDIAEGIVSPGYMRFCDRAEAIHCGVNLLKEGDILLVAGKGHETCQEKAGASSFFSDRETTEEVILARSTH",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan.",
+        "split": "train",
+        "metadata": "Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MLTVGRLLERLDILSVVGTVRRKQKIGALVCDSRKAVAGCLFIAVRGLVTDGHRFIDRAVEAGASVVICEKPPSATKEDCLYLVVDDARKARALAASAFYGDPAARLSIIGVTGTNGKTTTARLMAAMFNDCGVRAGYIGTGLATVGEEAVPLERTTPEAEELHRLFKSMAERGCRAVVMEVSSHALVQDRTFGIRFSGAVFTNLTPEHLDFHLDMDRYAAAKRLLFRSLEPDGFAVLNADDPRSVFMMEALAGQRLLCCSLDGSGGTPAARGEDIRAVVSVSDMSGTRLTIRAGGRSHEAFFRLPGRYNVMNLLEVFAAGLGMGIPAERVLAALGNVSPVEGRMEVVGEGAKGGRAIVDYAHTPDALEKVLEALDELKPEGGSLIVVFGCGGNRDREKRPEMGRIASARAKRVIVTSDNPRDEDPERIMDEIVAGIRSAGYLRFSDRAEAIRCGVNLMHPEDVLLVAGKGHEKYQEKSGARTYFSDQETARAALLARERVC",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan.",
+        "split": "train",
+        "metadata": "Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MDIIQKMVFKSKQQPLVPIGALATTGAIILASKSIRRGDRIKTQIYFRYRIGFQLLTLVALVAGGLYYQTETAQQKQTREEKLRDKAKLREKLWIEELERRDAVIQERKKRLEESKAELLEVAQQGFEEARETETREAQLKKEEIEEKEN",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes.",
+        "split": "train",
+        "metadata": "Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MKNLLSLCFLMLAAFTLNPAAAQEKQSIFDVSNSSLFSNDDEFLKVDQAFAFNFYQKNNLLEVSFDIAPEYYLYRHQFKFKGKNTQFTSVLLPDGIDHEDEFFGVQKIFTENLAFTVNLENVSNDASIKITYQGCAEKGLCYPPTSKVIKLSKFILGESTSAPSSDAAQQTNEGEVKKSEQHQLSDMLKQDSLLLTLIAFFVGGLLLSFTPCVFPMYPILTGIIVGQGEGLTTKKAFTLSFFYVQGMAITYTLLGVVVAMAGAKFQAVFQHPIVLIGLSILFIFLALSMFGVFNLALPASWQNKLNNVSNKQKGGSITGVLMMGVISGLVASPCTTAPLTGALLYISQTGDVVLGASALYALSLGMGLPLLILGSSGGKLLPKAGAWMNIIKNIFGLLLLAVPVFLLERFIPEVASQALWALLILVSASYFYVANQNHAAAQNVQQGKGFWYGLRSLVIFLMLFFGANLAYQLIYPSSNNVTNNAQHASFKQVTSLAQLEDEVKKANMQGKTVMVDLYADWCIACKEFEKYTFVDADVQKALSNSVWLQIDMTEFDSTDNAELVQHYTILGLPSILFFDLQGNELTKQRTTGFMKAAEFSAHVKSIFK",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Required to facilitate the formation of correct disulfide bonds in some periplasmic proteins and for the assembly of the periplasmic c-type cytochromes. Acts by transferring electrons from cytoplasmic thioredoxin to the periplasm. This transfer involves a cascade of disulfide bond formation and reduction steps.",
+        "split": "train",
+        "metadata": "Required to facilitate the formation of correct disulfide bonds in some periplasmic proteins and for the assembly of the periplasmic c-type cytochromes. Acts by transferring electrons from cytoplasmic thioredoxin to the periplasm. This transfer involves a cascade of disulfide bond formation and reduction steps."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MRIATAAELREADRQAIDDLGIPGACLMQSAGEALARACAGAQRIAFLCGKGNNGGDGFAAARLLAVAGKEITVLLTTSEEEITGLAATHLAPLRASGVTVAPFSDAALAGHDLLVDCLLGTGTRGAPRGLVAEAIRAANASGIPLVACDLPSGVDADTGEVPGDAIRARATVTLSALKPGLLLYPGAELVGELTLAPIGLPILTPPTQELTTIGWVRATLPKRQQGRDANKGAFGTVLVVAGARGMAGAAVLTATAALRAGAGLVYLAVPESLVATVAALSAEVVVRPLPETPDGTHGGEGALETLLPLVARADAIALGPGLTAGAAVQDFVEALLTHTNLPLVIDADGLNCIAQRAALLSRLSGRERVLTPHPGELGRLLGLPTRAVQASRTEVVGRVAQNFGSVTLLKGARTLVASPAGQLYYNREGSVSLATAGSGDVLTGVIAALLAQGLTAENAARCGAYWHALAGESLPVGSLAGEIRDALPAARLRLESGDIGDL",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Catalyzes the epimerization of the S- and R-forms of NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or heat-dependent hydration. This is a prerequisite for the S-specific NAD(P)H-hydrate dehydratase to allow the repair of both epimers of NAD(P)HX.",
+        "split": "train",
+        "metadata": "Catalyzes the epimerization of the S- and R-forms of NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or heat-dependent hydration. This is a prerequisite for the S-specific NAD(P)H-hydrate dehydratase to allow the repair of both epimers of NAD(P)HX."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MIGTNVIRRNANFLQVIKSYYQLTKPRIIPLLLITTAAAMWIASNGQVDPVLLLVTLLGGTLAAASAQTLNCIYDQDIDYAMLRTRARPIPSGRVRPLHALIFAIILAVLSFTLFVVFVNMASALLAMSGIAFYMLIYTHMLKRHSPQNIVIGGAAGSIPPLVGWAAVTGDLSWAAWALFAIIFLWTPPHFWALALMIKDDYAQVNVPMMPVVEGEESTVEQIWIYTLIVVPFTFILVYPLAASGIVYTLVALVLGGMFIYKTWQLKQNPLDKDLARSLFKYSILYMMLLCTGMVVDSLPMTHEMIAAVGDNLNTLVSLIPLH",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Converts heme B (protoheme IX) to heme O by substitution of the vinyl group on carbon 2 of heme B porphyrin ring with a hydroxyethyl farnesyl side group.",
+        "split": "train",
+        "metadata": "Converts heme B (protoheme IX) to heme O by substitution of the vinyl group on carbon 2 of heme B porphyrin ring with a hydroxyethyl farnesyl side group."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MSHLPSSFDGAEQDVDEMTFLEKMTFHCKQQPLVPLGTLATTVAVILAAQNVRSGNKRKAQKYFRWRVGLQGATLVALVAGSFIYGTSQKERQSKEDALREKAKLREKLWIQELERRDEETQLRKKRAELARSRAKELEQETQGLQQELRDLQAKTSSSK",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes.",
+        "split": "train",
+        "metadata": "Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MSNSTPLPSSFDGDTDFYEENRWQKLTRRLKEEPLIPLGCILTSLALVGASRSIRAGDHNRTQRMFRARIYAQGFTLLAMVAGSMYWDSDRKKRKEFEGVLAETKAKEKNEAWIRELEARDEEEKEMRRARDERRRRAEGRPAPKAVVTDAPAEEGEKPKGGVMEQMSGLVWGKK",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes.",
+        "split": "train",
+        "metadata": "Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MIKIIIGYVLDLIIGDPNNPYHPIRYIGKLASNMEKLWRKVFKKNLKIAGFFAWLFIVFITFGVTLGIVHIANKINPILGTVVSGILIYFCISAKGLKVEGLKVIKILKEGDIVKARKQLSYIVGRDTENLDEEAIVRAVVETVAENMSDGIIAPLFFAGIGGAPLAFLYKAVNTCDSMFGYKNEKYKDFGFFSAKLDDVFNYIPARLTAYLIVISSFILRLNCKNIFKIYKRDRYNHSSPNSAHPEAAVAGALGIRLGGANYYFGKLVEKPTIGDAKKKIEISDVYKTNNILGMVSFLGMVVALIIRCILEVII",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Converts cobyric acid to cobinamide by the addition of aminopropanol on the F carboxylic group.",
+        "split": "train",
+        "metadata": "Converts cobyric acid to cobinamide by the addition of aminopropanol on the F carboxylic group."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MSDFMTEQEFRIEHDTMGEVKVPAKALWQAQTQRAVENFPISGRGLESAQIRAMGLLKAACAQVNKDSGALDAEKADAIIAAGKEIASGKHDAEFPIDVFQTGSGTSSNMNTNEVIASIAKANGVEVHPNDHVNMGQSSNDTFPTATHVAATEAAVNDLIPGLKVLHESLAKKANEWSEVVKSGRTHLMDAVPVTLGQEFGGYARQIQLGIERVEATLPRLGELAIGGTAAGTGINTSADFGGKVVAELINLTDVKELKEAENHFEAQAARDALVEFSGAMRVIAVSLYKIANDIRLMGSGPLTGLGEIRLPDLQPGSSIMPGKVNPVLCETATQVSAQVIGNDAAVAFSGTQGQFELNVFIPVMARNVLESARLLANTSRVFATRLVDGIEPNEAHMKELAESSPSIVTPLNSAIGYEAAAKVAKTALAEGKTIRQTVIDLGLVDGEKLTEEELDKRLDVLAMAHTERENKF",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Involved in the TCA cycle. Catalyzes the stereospecific interconversion of fumarate to L-malate.",
+        "split": "train",
+        "metadata": "Involved in the TCA cycle. Catalyzes the stereospecific interconversion of fumarate to L-malate."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MIVASILILIVPVLLSVAMFTLAERTVMASMQRRFGPQVSGISGLLQPFWDGLKLGVKEPVLPDSSSAGAFAASPMISFVLSQVAWVGICISDASFQGLVIMAISSLAVYGVMLAGWASNSKYAFLGCLRSVALMVSYELSLGAALLSIGLFVTDGTGMKCLNFAEMPTTPQYAMLPLCLIFLVCILAETKRDPFDLPEAELVAGYNVEYSSLGFALFFIAEYANMAVMSAIASIYFLGGFSALKITALFFAFVWTRGTLPRYRYDQFMRLGWKAFLPLTLAFFALHASVAI",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Core subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I) that is believed to belong to the minimal assembly required for catalysis. Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone .",
+        "split": "train",
+        "metadata": "Core subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I) that is believed to belong to the minimal assembly required for catalysis. Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone ."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MKIDYYEALGVTRTADDKTLKAAFRKLAMQYHPDRNPDDPEAERKFKEIGEAYETLKDPQKRAAYDRFGHAAFENGGMGGGFGNGFGGAGGFADIFEDIFGEMMGGGRRRSNGGRERGADLRYNMEVTLEEAYAGKTAQIRVPTSITCDECSGSGAKPGSQPTTCTMCSGSGRVRAAQGFFSVERTCPGCNGRGQIIKDPCEKCHGQGRVTQERSLSVNIPTGIEDGTRIRLAGEGEAGLRGGPAGDLYIFLSVKPHEFFQRDGADLYCKVPISMTTAALGGQFEVSTLDGTQTRVKVPEGTQNGKQFRLKGKGMPVLRQSVTGDLYIQIDIETPQNLSKRQRELLEEFEKLSSQENSPKSAGFFSRMKEFFEGIGE",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Participates actively in the response to hyperosmotic and heat shock by preventing the aggregation of stress-denatured proteins and by disaggregating proteins, also in an autonomous, DnaK-independent fashion. Unfolded proteins bind initially to DnaJ; upon interaction with the DnaJ-bound protein, DnaK hydrolyzes its bound ATP, resulting in the formation of a stable complex. GrpE releases ADP from DnaK; ATP binding to DnaK triggers the release of the substrate protein, thus completing the reaction cycle. Several rounds of ATP-dependent interactions between DnaJ, DnaK and GrpE are required for fully efficient folding. Also involved, together with DnaK and GrpE, in the DNA replication of plasmids through activation of initiation proteins.",
+        "split": "train",
+        "metadata": "Participates actively in the response to hyperosmotic and heat shock by preventing the aggregation of stress-denatured proteins and by disaggregating proteins, also in an autonomous, DnaK-independent fashion. Unfolded proteins bind initially to DnaJ; upon interaction with the DnaJ-bound protein, DnaK hydrolyzes its bound ATP, resulting in the formation of a stable complex. GrpE releases ADP from DnaK; ATP binding to DnaK triggers the release of the substrate protein, thus completing the reaction cycle. Several rounds of ATP-dependent interactions between DnaJ, DnaK and GrpE are required for fully efficient folding. Also involved, together with DnaK and GrpE, in the DNA replication of plasmids through activation of initiation proteins."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MASFVECWSSAGRPTCSSEEAGHVRTRRRRISVGVCSDCGGDGVERPTQSSASSCSSSSSTTSATTTTSSRRPHSSRRRSPGSSSSSSAGCCYWLLVLLVVLSALLPSPATACGPGRGANRRRSPRKLTPLVFKQHVPNVSENTLGASGLTEGKITRDDPRFQQLVPNYNTDIVFKDEEGTGADRLMTQRCKEKLNTLAISVMNQWPGVKLRVTEGWDEEGLHAANSLHYEGRGVDITTSDRDRSKYGMLARLAVEAGFDWVYYESRAHIHASVKSESSQAGRHGGCFPPESTVLSESGGVKKLSELSVGDRIQSMDSQGRLVFSPVLLFLDRDLSEERDFVQLLSADGASVTMTASHLIYTVASQDLLEDVDVDLMNGQLQSNSLHSGENSSAEEEDRLLDQMMANATMDRFGTRLKATFASKVQIGDWIVSTGPDGRPKPQRVVGVSAVTQRGVLAPLTEEGTLVVDQVVVSCYAVIDDQTIAHWAFAPVRLLNNVHKSLVHFWRALSWWNHDRTESASGSIPVRISVEAERSNTSESKPPTLVGIHWYAKMLYRIARFVLPSHLVFN",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: [Protein hedgehog]: The C-terminal part of the hedgehog protein precursor displays an autoproteolysis activity that results in the cleavage of the full-length protein into two parts (N-product and C-product). In addition, the C-terminal part displays a cholesterol transferase activity that results by the covalent attachment of a cholesterol moiety to the C-terminal of the newly generated N-product.",
+        "split": "train",
+        "metadata": "[Protein hedgehog]: The C-terminal part of the hedgehog protein precursor displays an autoproteolysis activity that results in the cleavage of the full-length protein into two parts (N-product and C-product). In addition, the C-terminal part displays a cholesterol transferase activity that results by the covalent attachment of a cholesterol moiety to the C-terminal of the newly generated N-product."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MASVSFQDRGRKRVPLSLYAPLRVTNDKPLSKVLANNAVPTNKGNKDQQIGYWNEQIRWRMRRGERIEQPSNWHFYYLGTGPHGDLRYRTRTEGVFWVAKEGAKTEPTNLGVRKASEKPIIPKFSQQLPSVVEIVEPNTPPASRANSRSRSRGNGNNRSRSPSNNRGNNQSRGNSQNRGNNQGRGASQNRGGNNNNNNKSRNQSNNRNQSNDRGGVTSRDDLVAAVKDALKSLGIGENPDRHKQQQKPKQEKSDNSGKNTPKKNKSRATSKERDLKDIPEWRRIPKGENSVAACFGPRGGFKNFGDAEFVEKGVDASGYAQIASLAPNVAALLFGGNVAVRELADSYEITYNYKMTVPKSDPNVELLVSQVDAFKTGNAKLQRKKEKKNKRETTLQQHEEAIYDDVGAPSDVTHANLEWDTAVDGGDTAVEIINEIFDTGN",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Packages the positive strand viral genome RNA into a helical ribonucleocapsid (RNP) and plays a fundamental role during virion assembly through its interactions with the viral genome and membrane protein M. Plays an important role in enhancing the efficiency of subgenomic viral RNA transcription as well as viral replication.",
+        "split": "train",
+        "metadata": "Packages the positive strand viral genome RNA into a helical ribonucleocapsid (RNP) and plays a fundamental role during virion assembly through its interactions with the viral genome and membrane protein M. Plays an important role in enhancing the efficiency of subgenomic viral RNA transcription as well as viral replication."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MKYLRKIINWLSSLKVAIVLLILIALGSALGTALPQGEKAESYLKNYEVTRFLGVINGDLLLQLQLDHVYSSFWFLFLLTWLSFSLIICSWKRQWPSLKKAIDWIDYKEPKQIQKLAISQSFRIQKNDNGINPLANYLENNGWQVKIKSSRLAARKGLIGRVGPPLVHFGLILLIIGATYGVLKGQRLEKFLAPERSLNLLSPNGISKVSVKLTDFKIDRDPTGKPEQFRSKLELHNNNINKSIYEEISVNHPLRFQGITLYQADWSLAAITIQINNSPKIQFPLNKIDELGDQVWGIVLPQMPDSDLKPLLLTLSSEQGPVRFFSEEGNPAGIGRPNGNPILIGTSKISIIDVIPSSGILLKYDPGVPIVYLGFAISLIGSVFSIISTKQLWIIQEEESRLMHIGGLSNRNLSGFANQFNSIIKAAYD",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Required during biogenesis of c-type cytochromes (cytochrome c6 and cytochrome f) at the step of heme attachment.",
+        "split": "train",
+        "metadata": "Required during biogenesis of c-type cytochromes (cytochrome c6 and cytochrome f) at the step of heme attachment."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MPSRSIQSVGSDESVVITGVSGRFPRANNVGEFARSLYGKEDLVDDLETRWQHTMQDVPRRTGKIGNMEKFDADFFGVSRIERDTMDPQVRMTIEHVYEAVLDAGLNPLTLRGSRTGVFSGVCFSETEVCMYYRACPPKGLGLLGCAKSQIPNRVSYLLDLRGPSYVLDTACSSSMYALDVAYRSMMNGECDAAIVTGANLTLHPFITYQFAMLGVLAKDGYCRPFDKDATGYTRSEAVCAVFLQKAKDAKRVYGHIIHSKTNCDGFKPEGITYPSGSVQQQLLTEFYNEVGISPTEVDYVEAHSTGTFVGDPEECDAIDKVYCTERTDPLLVGSVKSSIGHTEASAGVCSITKCIIAMENGLIPPNINYTDYRPTIPSLVEGRLKVVTDAMPLSGPLVGINSFGFGGANAHALLCRNLKEKVMNGVPDDDLPRLVTWSGRTRESIETMLHDIGQRPLDVEFIALLFNIQQQPTPGHRYRGFGIYQKNGDRPAVLQTSSIDRVKLDVIPVVAVFGGININWRKELDALRQFSVVEDTFVKCSGILRSLKFDLHKRSSGRESILYNMVGSTILQLSIVDLLSSIGVKFDFYGGHSIGQFTCAYIDHNLTLEQVLRLAFWHGLVFSDCHAVCDRTAFVQINSQLKQLPLENLIKDSATNFGILNANEKVMVEQIRQLKSSGLIAEELSFLDVHADSTKSSSLANKLRQTVNTVLSRTILPSDKWITSALPQTSSIFHSPKLHDVTSIVNLIEKIPHHSHVVEFGSSQPCE",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Fatty acid synthetase is a multifunctional enzyme that catalyzes the de novo biosynthesis of long-chain saturated fatty acids starting from acetyl-CoA and malonyl-CoA in the presence of NADPH. This multifunctional protein contains 7 catalytic activities and a site for the binding of the prosthetic group 4'-phosphopantetheine of the acyl carrier protein ([ACP]) domain.",
+        "split": "train",
+        "metadata": "Fatty acid synthetase is a multifunctional enzyme that catalyzes the de novo biosynthesis of long-chain saturated fatty acids starting from acetyl-CoA and malonyl-CoA in the presence of NADPH. This multifunctional protein contains 7 catalytic activities and a site for the binding of the prosthetic group 4'-phosphopantetheine of the acyl carrier protein ([ACP]) domain."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MSISGIILAAGKGTRMKSDLPKVLHTVLGKKLISYAIDSISEIKNKYVVVGHEAEQVIESLPKNIKNIIQHEQKGTGHAVSVVVESSSFQEDNSEYILIIPGDVPLINKEDIKELINKVTSSECSVGFLSSNVSDPFGYGRVVRGKGTVEIIEERDCSEEQKKVNEINSGIYCFQKDFITKYIKELDTSNAQGELYLTDLIGIANNQKKDIVIVQVDEHSIQGINSMSQLNEVEDTLQKKIIQSFMEEGVYFQDPTSTYIDETVKIASGSKIYANSHIKGNTVIEEGCEIGPNAQINNSYIGNGSKVINSVIDDAKIESNGSIGPFAHIRPGSELADNVKVGAFAETKKSKIGKGSKIPHLAYVGDAELGSGVNFSAGAITVNYDGRNKHQTDIKDGAFIGSDVMLVAPITVGKEAMIGAGSVITKDVPEKALGIERSDQKNIDGYVDRKNKK",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the last two sequential reactions in the de novo biosynthetic pathway for UDP-N-acetylglucosamine (UDP-GlcNAc). The C- terminal domain catalyzes the transfer of acetyl group from acetyl coenzyme A to glucosamine-1-phosphate (GlcN-1-P) to produce N- acetylglucosamine-1-phosphate (GlcNAc-1-P), which is converted into UDP-GlcNAc by the transfer of uridine 5-monophosphate (from uridine 5- triphosphate), a reaction catalyzed by the N-terminal domain.",
+        "split": "train",
+        "metadata": "Catalyzes the last two sequential reactions in the de novo biosynthetic pathway for UDP-N-acetylglucosamine (UDP-GlcNAc). The C- terminal domain catalyzes the transfer of acetyl group from acetyl coenzyme A to glucosamine-1-phosphate (GlcN-1-P) to produce N- acetylglucosamine-1-phosphate (GlcNAc-1-P), which is converted into UDP-GlcNAc by the transfer of uridine 5-monophosphate (from uridine 5- triphosphate), a reaction catalyzed by the N-terminal domain."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MEQKRYALIVAGGHGLRMGADRPKQFLLLAGLPVLMHTLNRFAPHVDAIVLVLPTDHHAYWQELCRKYDFSVSHRVVAGGNTRFASVRNGLQVVPDGVLVAVHDGVRPLVSAETIDACFDLAELKGAVAPCRPMTESLRYYATDGNYAVDRSRYVTVQTPQTFRSEWLREAYRQPYEEYFTDDCSVYEHHFGRPVALIVGNIENIKLTTPLDLSLAKLLLTS",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Catalyzes the formation of 4-diphosphocytidyl-2-C-methyl-D- erythritol from CTP and 2-C-methyl-D-erythritol 4-phosphate (MEP).",
+        "split": "train",
+        "metadata": "Catalyzes the formation of 4-diphosphocytidyl-2-C-methyl-D- erythritol from CTP and 2-C-methyl-D-erythritol 4-phosphate (MEP)."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MTKYIFCTGGVVSSLGKGVAAASIGRILKSRGLAVTVQKLDPYLNVDPGTMSPYEHGEVFVLEDGAETDLDLGAYERFIDENLSRASNLTSGQVYQQVINRERRGDYLGKTIQVIPHVTNQIKATINQVARQTKADVVIVEVGGTVGDIEGLPFLEALRQMRKDLGRDNTYYIHVTLLPHLATTNELKTKPTQHSVRELRGIGIQPDMIMCRADLPVGDDLREKIALFCDVDRQAVIPLPTASTIYEVPLTLEDYRVADIICARMKIDCRTPDLAEWRDMVAHIKGPKPHTVTVGIVGKYVELEDAYMSVYEALNHAAVHHNCAVNIEWISSEDLERMRNVERLENLDGIVVPGGFGERGVEGKIVAAKFARVRKVPYLGLCLGMQVMVIELAREVFESDAPNSTEFNPATTHPVIDLMPDQRDIADLGGTMRLGSYPCHLIPGTIAANAYQADQVDERHRHRFEFNNEFKEQLGQAGLVFSGLSPDGRLVEIAELRDHPFMLGSQFHPEFKSRPTRPHPLFAQFIRAALDRVVAAQSAPAAATEPAPVSG",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the ATP-dependent amination of UTP to CTP with either L-glutamine or ammonia as the source of nitrogen. Regulates intracellular CTP levels through interactions with the four ribonucleotide triphosphates.",
+        "split": "train",
+        "metadata": "Catalyzes the ATP-dependent amination of UTP to CTP with either L-glutamine or ammonia as the source of nitrogen. Regulates intracellular CTP levels through interactions with the four ribonucleotide triphosphates."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MKSGEPVNSHDVTDEQWEGLAQVVPLRGRDAWPSAVGHRAMPEAETERRRRFVVLRINVFADAREVAETLMAGIPVLLDLTSAEGEVAKRVLDFSTGVVFGLASGMHRVDRNVFLLTPAGTEVNGLMESAAGVPGV",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Cell division protein that is part of the divisome complex and is recruited early to the Z-ring. Probably stimulates Z-ring formation, perhaps through the cross-linking of FtsZ protofilaments. Its function overlaps with FtsA.",
+        "split": "train",
+        "metadata": "Cell division protein that is part of the divisome complex and is recruited early to the Z-ring. Probably stimulates Z-ring formation, perhaps through the cross-linking of FtsZ protofilaments. Its function overlaps with FtsA."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MAKKITAYIKLQCPAGAAKPSPPVGPALGQHGLNIMEFCKAFNAQTANMEPASPVPVLISVYADRTFSFELKTPPASYFLKKAAGLQGGSKAPNRDPAVGKVTWAQVEEIAKAKMVDLNANDIEAAKKIIAGSANSMGLEVV",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MAKKITGFVKLQVPAGAANPSPPIGPALGQRGLNIMEFCKAFNARTAQMEKGTPIPVVITAYGDRSFTFEMKLPPVSYFLKKASGIASGSKTAGRGFAGKISKAQIREIAEKKMPDLNCASVDAAMTMIEGSARSMGLEITG",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MAKKITGYVKLQVPAGSANPAPPIGPALGQRGLNIMEFCKAFNAQTAQLEKGMPIPVVITAYQDRSFTFELKTPPVSYFLKKAAGLETKKKPGSGSKTPGKGTFVGKVTRAQLSEIAEKKMKDLNCETVEAAVQMIEGSARSMGLQVQG",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MVIKKIKAYIKLQISAGAANPSPPIGPALGQQGVNIIEFCKAFNENTAQLETGLPIPVVITVYSDRSFSFITKTPPASILLKKAANIQSGSEKPNIINVGKISSAQIYEIAKIKAVDMTGANIESISRSIIGTARSIGLKVED",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MAKKLVGSMKLQVPAGQANPSPPVGPALGQRGINIMEFCKAFNAKTADMEPGAPCPTVITYYQDKSFTMDIKTPPASYYLKKAAKIKSGANNPSRETAGTVTAAQVKEIAEAKMKDLNANDIEAAMQIILGSARSMGIEVK",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MAKKVTGQVELMIPAQQAAPSPPVGPALGQHGVNIMEFVKSFNAATANMKPGTIVPVVITIYSDRSFTFILKTPPASYLLKEAAGIKTGSGDPKRNKVGKITVNQLREIAEMKLKDLNTEDIEMAMRTIAGTARSMGIEIEGYKG",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MAKKIAGYIKLQVPAGAANPSPPIGPALGQRGVNIMEFCKAFNAKTQEMEKGMPIPTTITVFSDKSFTFAIATPPASFFLKKAAKIAKGSSTPSQTTAGTVSMAQCREIAEAKFNDLNANDLDQATKIIAGSARSMGLQVTE",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors.",
+        "split": "train",
+        "metadata": "Forms part of the ribosomal stalk which helps the ribosome interact with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MRLLLCLIFLVFVFNFALSTVHFKDTFDNDWESRWVVSDWHKEDGKSGKLVHTAGKWFGDENQKGIQTSEDARFYAVSAKFPSFSNKGKDLVLQYTVKNEQKVDCGGSYIKLLPSKLDQSAFDGESEYSIMFGPDVCGASKRVHVILNYKGKNHLIKKEINKVETDQLTHQYTLVISPDNTYKVLVDNKEIQAGNLADDWELLPSKQIKDPKQSKPVDWVDVKEIDDPEDVKPAGHDDIPASIVDPEAVKPEDWNEEDDGEWEAPTIANPEYKGEWKAKKIPNPEYKGEWVHPLIDNPEYAEDNELYLFNDLGAIGFELWQVKSGSIFNNMIVTDSVEEAKDFSEKTFVANQEAEKKMFDDLEAAKAEERKKADEKLAAEKAAEKEAEEADEEEEEVAEEDLVKTDDKKEEVKKSTKKVDHDEL",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER .",
+        "split": "train",
+        "metadata": "Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER ."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MTVKDYMQQLGRQARAASRDMLAASTDDKNRALVAIADAITANRELIIQENARDLENGRANGLEPAMLDRLELTPARFDGMIEGLRQVAALPDPCGEISDLKYRPSGIQVGKMRVPLGVVGIIYESRPNVTIDAASLCLKSGNATILRGGSEAIHSNQAIAKCIAAGLESVGLPASAVQVVETTDRAAVGELITMAEYVDVIVPRGGRSLIERISNDAKVSVIKHLDGICHVFIDDDADLDKAFNIALNSKTHRYGVCNAMETLLVASSVAEKILPRLATAYAEKSVELRGCDRTLAILPNINAAKPEDWDTEYLAPILAIRVVDDMTAAMDHIAAHSSAHTESIVTENYTKARKFMALVDSASVMVNASTRFADGFQYGLGAEIGISTDKIHARGPVGLEGLTSQKWIVFGDGEILN",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Catalyzes the NADPH-dependent reduction of L-glutamate 5- phosphate into L-glutamate 5-semialdehyde and phosphate. The product spontaneously undergoes cyclization to form 1-pyrroline-5-carboxylate.",
+        "split": "train",
+        "metadata": "Catalyzes the NADPH-dependent reduction of L-glutamate 5- phosphate into L-glutamate 5-semialdehyde and phosphate. The product spontaneously undergoes cyclization to form 1-pyrroline-5-carboxylate."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MAIRKGSSYAVAALLALASVAAVAGEVFFQEKFEDGWESRWVKSEWKKDENMAGEWNHTSGKWNGDAEDKGIQTSEDYRFYAISAEYPEFSNKDKTLVLQFSVKHEQKLDCGGGYVKLLGGDVDQKTLGGDTSYSIISRPDISRYSTKKVHTILTKDGKNHLIKKDVPCQTDQLTHVYTFIIRPDATYSILIDNEEKHTGSIYEHWDILPPKKIKDPEAKKPEDWDDKEYIPDPEDKKPEGYDDIPKEIPDPDAKKPEDWDDEEDGEWTAPTIPNPEYKGPWKQKKIKNPNYQGKWKAPMIDNPDFKDDPYIYAFDSLKYIGIELWQVKSGTLFDNIIITDDPALAKTFAEETWGKHKEAEKAAFDEAEKKKEEEDAAKGGDDEDDDLEDEEDDEKADEDKADSDAEDGKDSDDEKHDEL",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER .",
+        "split": "train",
+        "metadata": "Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER ."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MKWGVVAVLATLVVAASAKDYFKETFDGSWADRWTKSSWKVSDGSAGEFKLTAGKWYGDAEADKGIQTGPDSKFFAISAPLATVFDNTGKDTVVQFSVKHEQDLDCGGGYIKVVPATSEKQMGEFGGDTPYSIMFGPDICGYSTRKVHVILTYKGKNYLIKKDIKAETDQLTHVYTLVIKPDNTYQVLIDLKEVASGSLYEDWDMLPPKTIKDPKASKPEDWDEREEIADPEDKKPEGWDDIPATIADKDAKKPEDWDDEEDGTWEPPMIPNPEYKGEWKAKMIKNPAYKGIWVAPDIDNPDYVHDDKLYNFKDLKFVGFELWQVKSGSIFDNILVTDDLEAAKKFAEDTWGKHKDEEKAMFDKVKKEEDEKKAKDAPPPPVDAEAAEEEDDEYEDKEEPSGMGSIKIPKEEEESGHDEL",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER .",
+        "split": "train",
+        "metadata": "Molecular calcium-binding chaperone promoting folding, oligomeric assembly and quality control in the ER via the calreticulin/calnexin cycle. This lectin may interact transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER ."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MSGELPPQVQNQLAQLQQLQQQAQALVAQKSQIELLKKEAEAAIKELDKSPDDVVVYKNVGELMLRSDKATLMTELKERVDLLDLRLKTVAKQEERIQSRFNQLQDQLRQSLGQMPPRGG",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Molecular chaperone capable of stabilizing a range of proteins. Seems to fulfill an ATP-independent, HSP70-like function in archaeal de novo protein folding.",
+        "split": "train",
+        "metadata": "Molecular chaperone capable of stabilizing a range of proteins. Seems to fulfill an ATP-independent, HSP70-like function in archaeal de novo protein folding."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MIIERLVGNLRDLNPLDFNVDYVDLEWFETRKKIARFKTRQGKDIAIRLKDAPKLGLSQGDILFKEEKEIIAVNILDSEVIHIQAKSVAEVAKICYEIGNRHAALYYGESQFEFKTPFEKPTLALLEKLGVQNRVLSSKLDSKERLTVSMPHSEPNFKVSLASDFKVVMK",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Involved in urease metallocenter assembly. Binds nickel. Probably functions as a nickel donor during metallocenter assembly.",
+        "split": "train",
+        "metadata": "Involved in urease metallocenter assembly. Binds nickel. Probably functions as a nickel donor during metallocenter assembly."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MKFILRLFPEISIKSRPVRNRLIKLLSQNILNVAKHRAMECHVYSQWDKLIVRFGEKEDTSMREAAVRELSRIPGIHSFLEVDEFDFKNFDDIFEHAKVIYGAKLLGKTFAVRVKRRGNHEFTSQQAERIIGGMFKQHFPNNGVDLTHPEITINIEIDSEKAFVITGKHAGIGGYPVGSQGDVLSLISGGFDSGVSTYRAIRRGCRVNYLFFNMGGTAHEIGVKQESYFIWDRFASSHRVKFITIPFEDIVGQILERTHHGVRGVILKRMMMRVGSAVAEKIGAAALVTGESVGQVSSQTLINLSHIDRAASSLILRPLVMEDKQDIIDEATLIGTAGFAENMPEYCGVISDHPNVCPNLSFVEEEEAKMDADLVEKAVAASRFIDIKEIPEDTKRLKTDVEIEAQLKRGEVVLDVRSPDDAAKSPLKLEDNEIVLMPFYKTAKDFSSLDQLKTYVLYCDQGVMSLMQARQLKEMGFHNVKVWRPET",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Catalyzes the ATP-dependent transfer of a sulfur to tRNA to produce 4-thiouridine in position 8 of tRNAs, which functions as a near-UV photosensor. Also catalyzes the transfer of sulfur to the sulfur carrier protein ThiS, forming ThiS-thiocarboxylate. This is a step in the synthesis of thiazole, in the thiamine biosynthesis pathway. The sulfur is donated as persulfide by IscS.",
+        "split": "train",
+        "metadata": "Catalyzes the ATP-dependent transfer of a sulfur to tRNA to produce 4-thiouridine in position 8 of tRNAs, which functions as a near-UV photosensor. Also catalyzes the transfer of sulfur to the sulfur carrier protein ThiS, forming ThiS-thiocarboxylate. This is a step in the synthesis of thiazole, in the thiamine biosynthesis pathway. The sulfur is donated as persulfide by IscS."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MTERLPPELQTELVKLQQLQEQLNRVIAERSVIDSQLREVNKVLDELKQLPSDTIIYKIVGNLLVKVNKDNVEKELDDQKTILELRSRTYQNQETKLRTQLEEKQKKVNEMLSKYYPQRGAGAKA",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Molecular chaperone capable of stabilizing a range of proteins. Seems to fulfill an ATP-independent, HSP70-like function in archaeal de novo protein folding.",
+        "split": "train",
+        "metadata": "Molecular chaperone capable of stabilizing a range of proteins. Seems to fulfill an ATP-independent, HSP70-like function in archaeal de novo protein folding."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MSSPALQSLSMAGLQLMTPASSPMGPFFGLPWQQEAIHDNIYTPRKYQVELLEAALDHNTIVCLNTGSGKTFIAVLLIKELSYQIRGDFNKNGKRTVFLVNSANLVAQQVSTVRTHSDLKVGEYSSLEITETWTKERWNQEFDKYQVLVMTCQVALNILKREHLSLSNINLLIFDECHLAIQDHPYRAIMKLCESCPSCPRILGLTASILNGKCDPSELEEKIQKLEKILKSSAETATDLVVLDRYTSQPCEIVVDCGPYTDKSGLYERLLTELDDALSFLNDCNISVHCRERDSTLISKQILSDCRAVLLVLGPWCADKVAGMMVRELQKYIKHEQEELHRKFLLFTDTFLRKIHALCEEHFSPASLDLKFVTPKVIKLLEILRKYKPYERQQFESVEWYNNRNQDNYVSWSDSEDDEEDEEIEEKEKTETNFPSPFTNILCGIIFVERRYTAVVLNRLIKEAGKQDPELAYISSNFITGHGIGKNQPRSKQMEVEFRKQEEVLRKFRAHETNLLIATSIVEEGVDIPKCNLVVRFDLPTEYRSYVQSKGRARAPISNYIMLADSDKIKHFEEDLKTYKAIEKILRNKCSKSVDNNETESEPIIDDDDIFPPYVLRSEDGGPRVTINTAIGHINRYCARLPSDPFTHLAPKCKTRELPDNTFYSTLYLPINSPLRVSIVGPPMGCTRLAERVVALICCEKLHKIGELDDHLMPVGKETVKYEEELDLHDEEETSVPGRPGSTKRRQCYPKAIPECLKESYPKPDQPC",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Double-stranded RNA (dsRNA) endoribonuclease playing a central role in short dsRNA-mediated post-transcriptional gene silencing. Cleaves naturally occurring long dsRNAs and short hairpin pre-microRNAs (miRNA) into fragments of twenty-one to twenty-three nucleotides with 3' overhang of two nucleotides, producing respectively short interfering RNAs (siRNA) and mature microRNAs. SiRNAs and miRNAs serve as guide to direct the RNA-induced silencing complex (RISC) to complementary RNAs to degrade them or prevent their translation. Gene silencing mediated by siRNAs, also called RNA interference, controls the elimination of transcripts from mobile and repetitive DNA elements of the genome but also the degradation of exogenous RNA of viral origin for instance. The miRNA pathway on the other side is a mean to specifically regulate the expression of target genes.",
+        "split": "train",
+        "metadata": "Double-stranded RNA (dsRNA) endoribonuclease playing a central role in short dsRNA-mediated post-transcriptional gene silencing. Cleaves naturally occurring long dsRNAs and short hairpin pre-microRNAs (miRNA) into fragments of twenty-one to twenty-three nucleotides with 3' overhang of two nucleotides, producing respectively short interfering RNAs (siRNA) and mature microRNAs. SiRNAs and miRNAs serve as guide to direct the RNA-induced silencing complex (RISC) to complementary RNAs to degrade them or prevent their translation. Gene silencing mediated by siRNAs, also called RNA interference, controls the elimination of transcripts from mobile and repetitive DNA elements of the genome but also the degradation of exogenous RNA of viral origin for instance. The miRNA pathway on the other side is a mean to specifically regulate the expression of target genes."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MSWFVLVIAGLFEVVWAVGLKYTHGFTRLIPSLITASAVALSMGLLAYAMKGLPIGTAYAVWTGIGAVGTAIFGIIVFGESASFARILSFALIIAGIIGLKLSS",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Guanidinium ion exporter. Couples guanidinium export to the proton motive force, exchanging one guanidinium ion for two protons.",
+        "split": "train",
+        "metadata": "Guanidinium ion exporter. Couples guanidinium export to the proton motive force, exchanging one guanidinium ion for two protons."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MCCTSGCALTIRLLGRTEIRRLAKELDFRPRKSLGQNFVHDANTVRRVVAASGVSRSDLVLEVGPGLGSLTLALLDRGATVTAVEIDPLLASRLQQTVAEHSHSEVHRLTVVNRDVLALRREDLAAAPTAVVANLPYNVAVPALLHLLVEFPSIRVVTVMVQAEVAERLAAEPGSKEYGVPSVKLRFFGRVRRCGMVSPTVFWPIPRVYSGLVRIDRYETSPWPTDDAFRRRVFELVDIAFAQRRKTSRNAFVQWAGSGSESANRLLAASIDPARRGETLSIDDFVRLLRRSGGSDEATSTGRDARAPDISGHASAS",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Specifically dimethylates two adjacent adenosines (A1518 and A1519) in the loop of a conserved hairpin near the 3'-end of 16S rRNA in the 30S particle. May play a critical role in biogenesis of 30S subunits.",
+        "split": "train",
+        "metadata": "Specifically dimethylates two adjacent adenosines (A1518 and A1519) in the loop of a conserved hairpin near the 3'-end of 16S rRNA in the 30S particle. May play a critical role in biogenesis of 30S subunits."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MNTLRLDTVSRAVSEIAAGRPVVVVDDEDRENEGDLIFSAAAATPDLLAMTVRYSSGIVCAPMPAAHADRLGLPLMVERTEDPLRTAFTVSVDAREGVSTGISAADRASTLRLLAGGDTTAADLTRPGHVFPLRARAGGVLERRGHTEAAVDLMALAGQPDVGVLVELVHDDGTMMRGPALRDFADRHGLAMISIEALAAHRLAKTAPLEVTEPVRLPTRHGEFTALAVREAGSGPDAGPGAEHLVLVRGDVTSPEPVLVRVHSECVTGDVLGSRRCDCGPQLEESLARIDREGRGALILLRGHEGRGIGLIEKLRAYALQENGRDTVDANLDLGLPVDARSFAVVPRILDHLGVCSVRLLTHNPAKAQALRAGGVDVRGTVELTTHPTPENLAYLTTKRDRLGHHLVGLPHRTGESA",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MPEGAAPGDAQHGGVRLDTVERAIADIAAGKAVVVVDDEGRENEGDIIFAAAKATPELMAFTIRHSSGVICAPMPADMLDRLEIPLMTPHNRDAYRTAYTISVDARDGTSTGISAADRAHTVKVLADSATEPWELTRPGHVFPLRYRDGGVLVRRGHTEAAVDLAKLAGLTPVGVLVEVVNDDGTMKRAAELREFADEHGLAMISIEDLVRYRRRHEVLVERVAETRLPTKHGEFTAFGYRITIDDSEHMALVYGDISAAADGTREPVLTRVHSECLTGDVFGSERCDCGPQLEESLKLIAEEGRGVVVYLRGHEGRGIGLAAKLQAYALQENGRDTVDANLDLGLPADARHYGTATQILRDLGIEEVRLITNNPDKCASLSDFGIAVTDRVALNTHVNENNVAYLRTKRDRMGHTIDLDVPVTLEALEGNS",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MTVTDTTPSAEPDDTAPAVGLDPIEDAIAEFAAGHAIVVVDDEDRENEGDIIFAAELATPELLAFMIRYTSGVVCVPMEGEELDRLDLPLMTARNEESLRTAYTVTVDAREGVTTGISAADRARTVRLLAAAESTPTDFVRPGHILPLRARPGGVLARRGHTEASVDFARLAGLRPAGVLAEVVNDDGTMARLPRLRRFADEHGLKLVSVEQLAAHRTALGEALTAEQAAPALVTRQVETRMPNRHGEWKAVGFKGTTDGAEHVALVHGDLTDGVDVLARLHSECLTGDAFGSQRCDCGAQLDAAMADIAEAGRGVVVYLGGHEGRGIGLLHKLRAYSLQDQGVDTVDANLRLGLPADAREFGAGAQILTDLGVSSVRLLTNNPVKAEALERYGVKVSERVAMPTFATDDNIAYLLTKRDRMGHDLAGVAR",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MSVRLDSVEQAIADIAAGKAVVVVDDEDRENEGDIIFAAAKATPELMAFTIRHSSGVICVPMPGDMLDRLEIPLMTPHNKDKLRTAYTISVDARDGVSTGISAADRAHTARVLADSATEPWEITRPGHVFPLRYREGGVLVRRGHTEAAVDLAKLAGLTPAGVLVEIVNDDGTMKRAPELREFADEHGLAMISIEDLVKYRRRNEVHVDREAETRLPTRHGDFTAFGYTITVDGSEHVALVYGDPASLTSGGPVLTRVHSECLTGDVFGSSRCDCGPQLDEALERIVQEGRGVVVYLRGHEGRGIGLVAKLQAYQLQDGGRDTVDANLDLGLPADARHYGAATQILKDLGVTEVRLLTNNPDKVTNLEDYGIKVTERVPLTPRPNDHNLAYLLTKRDRMGHDLPNLDAPLPASDLGLETAAGAASSTTGTEI",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MKHEVQHEGIRLDTIERAIADIAAGKAVIVVDDETRENEGDIIFAASKATPELMAFTIRHSSGVICVPMPADMLDRLEIPLMTPHNKDRMRTAYTISVDARDGVSTGISAADRAHTARVLADSATEPWEITRPGHVFPLRYREGGVLVRRGHTEAAVDLARLAGLTPAGVLVEVVNDDGTMKRAPELREFADEHDLAMISIDDLVRYRRRHENLVERVAETRLPTRHGDFAAYGYRITVDDSEHIALVYGDVSPGSGGGDQPVLTRVHSECLTGDVFGSRRCDCGPQLEEALERIVAEGRGVVVYLRGHEGRGIGLVAKLQAYQLQDGGRDTVDANLDLGLPADARHYGTATQVLRDLGVTSVRLLTNNPDKVENLEDFGIHVAARVPLTPHPNDHNIAYLLTKRDRMGHDLPDLDADVSPDVTPDLKDGA",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MTALRLDPVAEAISAIAAGRPVVVVDDEDRENEGDLILAASAATPELLAFAVRYSSGLLCAPMTAARADALDLPLMVAENADPLRTAYTVSVDAAEGVTTGISAADRARTLRILAGEQSTPSDLIRPGHVLPLRARDGGVLERRGHTEAAVDLTRLAGLSAVGMIVELVHDDGTMMRGHALRAFADEHALAMISIEELVEHRRHHDPEPLDITAPVTLPTDHGTFGALAVRDGSAEHLVLVRGDVSTAEPVLTRIHSECVTGDVFGSRRCDCGPQLQESLARIDAAGRGVLILLRGHEGRGIGLVEKLRAYALQESGRDTVDANLDLGLPVDARSFAIVPRILDHLGVGSISLLTHNPVKTGALRAGGVEVSSAVQLDTHATAENLAYLTTKRDRLGHHLVGLPATGPTAGTDPQPTTNPTTDPNGASS",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MEDFNNDDPMNFDKDDMINNNNDNNNNNNDNDNNNENNEDSNNNSNLENMISDTSTPRILEEEPDLTQVMWRDPLWLQMYPLNPQTILQYFSYSQFYDKNCNNEQLKMQRLDLSALKNMDGLEYELIKFVEPSFFLIAKQTRISPTDVLINTLYYVINGNIYQAPELHVVFKSRVSQSISHLSEAFNSISSIVNWDIVNGYSLNLDPSNQQEKSKLAAYSRKQIEDTKRLDQLINSLFIKFPAINRPVENPQQMGGGITPQQQPSQP",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors .",
+        "split": "train",
+        "metadata": "Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors ."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MKLIRADEMKEIDRRASSEYLIPSIVLMENAGLRTTEKIAELLDGVGGRNIIILVGRGNNGGDGLVVARHLLNAAARVNVFMCGEVGQLSPDARTNYEILARMTSRIYPLREETDLQYFIMSLLEADMVVDAIYGIGFRGSLGEFEARLAGLVNQSKCPLLAVDIPSGLEADTGRINGEAFKADYTVTFALPKLGMVLGKGRDYVGQLTVADISIPGALLLDEQIKLQMITEEMVKLHFQPRLRETHKGSYGHALIIGGSPGMSGAPVMASWAALRCGTGLVTLALPEKIMGAASVVPEVMSRGLPSTLTGAISGEACTIIENLLGTASVCAIGPGMSRYAEGNMVVRTVLEKAGIPVLIDADGLNALQSDVGILKDRQVPVVITPHPGEMSRLTKLSVEEIQNQRIEISRHYSVEWGVTIVLKGNNTIVALPGGQVFVNVTGNPGMATAGSGDVLSGIITGLIAQGLKPTDAAVAGVFLHGRAGDTAARQLGQRSITATDLIYSLPTVINELEMKAK",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the epimerization of the S- and R-forms of NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or heat-dependent hydration. This is a prerequisite for the S-specific NAD(P)H-hydrate dehydratase to allow the repair of both epimers of NAD(P)HX.",
+        "split": "train",
+        "metadata": "Catalyzes the epimerization of the S- and R-forms of NAD(P)HX, a damaged form of NAD(P)H that is a result of enzymatic or heat-dependent hydration. This is a prerequisite for the S-specific NAD(P)H-hydrate dehydratase to allow the repair of both epimers of NAD(P)HX."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MSTQPAPPPEAPSNLLHVQFKNPEFLSYLSHLQSTGQVSLGRDSSCAKFDPAHPLTEHNVMAYFATSPFFDRRSNNEQIRMQNIANGIQNLSGGMGAKQEEQELKRFTGLEFVLVHSREPTCFVVQKRWRTSPTETTPLAAYYVINDSIYQAPDLYSILATRLQSTVYALRMSLSTQRRARPSFDPRRGHHGRFIVADAPTSIDADSNRTCTTQSTHTHHADDHTPQLEHQQDHIHPPPPAAFTQPQLKKARFD",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors .",
+        "split": "train",
+        "metadata": "Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors ."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MSGLPSSVAFGEEEEPDLLDKMWEKSKQQPLVPIGSLLTAGAVFLAARSMKRGEKVKTQIYFRYRIGFQLATLAALVLGGMYYGTETKEYKQSREEKLREKAKQREKLWIEELERRDAIIQARKQRLEESKKELRELAKQGFEEEQNSQQSQEKN",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes.",
+        "split": "train",
+        "metadata": "Cytochrome c oxidase subunit which plays a role in assembly of respiratory supercomplexes."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MFDTIESAVEDLKQGKLIIVVDDEDRENEGDLVGIAEYITADEVNFMATHGRGLICTPLTGEIAEKAGLSPMVNNNRDPHGTAFTASIDHVSTTTGISAHERYDTIRALTEGGVKPSDFNAPGHIFPLVAKDGGVLERMGHTEASTDLARLSGAVPVGVICEIMNDDGTMARVDDLEIYKEKHDLKMITIEDLKRHMQKFTGVTLESTVQLPTDYGRFKMYGFVDNDTGKEHLALVHGELKNNMTVRIHSECLTGDVFHSQRCDCGEQLERAMRIINDQDGIILYMRQEGRGIGLINKLKAYELIEQGYDTVSANEHLGFDADLRKYDVAADMLHQLGLDEVTLLSNNPRKIRGLEEEGIKVNRQSHIVQANVVNQDYLKTKKEKLGHLL",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate.",
+        "split": "train",
+        "metadata": "Catalyzes the conversion of GTP to 2,5-diamino-6- ribosylamino-4(3H)-pyrimidinone 5'-phosphate (DARP), formate and pyrophosphate."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MYFEILGKDTPLAPTLVLSAGLGGAGSFWQPQINALGEHFRVVVYDHFGTARSKGSVPDGYSMADMADEVAQLLRSLNVDCCYFVGHALGGMIGLQLALTHPQLVEKLVVVNGWPTLDSQTRRCFKVRQDLLLNSGVEAYVRAQPLFLFPADWLSQHSALLDEELQHQTAHFQGTENLLRRLTALMNTDFRPHLADITTPTLALCSRDDLLVPYHCSHQLAASLPNGELAEMAYGGHAMSVTDTEHFNRILLGWLLKTQNAQTRLQP",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Involved in pyrimidine catabolism. May facilitate the hydrolysis of carbamate, a reaction that can also occur spontaneously.",
+        "split": "train",
+        "metadata": "Involved in pyrimidine catabolism. May facilitate the hydrolysis of carbamate, a reaction that can also occur spontaneously."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MNLNFNPLETNLVNLAIVIGVLFWFLRGFLGGILERRRSAILQDLQDAEARLKTASEELTKAQSELAAAQQKAEQIRIDGQKRAAAIRAEGEKRTISVMAAIKQGAAADADAEASRIKDALRREAAMAAIDKVLTDLPGRLDDAAQSRLIDSTIRNLENA",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Component of the F(0) channel, it forms part of the peripheral stalk, linking F(1) to F(0).",
+        "split": "train",
+        "metadata": "Component of the F(0) channel, it forms part of the peripheral stalk, linking F(1) to F(0)."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MTVDRFYIHGPTPLSGEVNISGAKNSALPILFATLLTEEPVEIFNVPKLKDIDVTIKLLTQLGAKVDHCDVVFVDTSSVNTCCASYDLVKSMRASIWALGPLVARFGEGKIWLPGGCSIGKRLVDLHVNGLEQLGATIILEEEYVTASVNGRLHGAHIIMDKISVGATVTIMSAAALAEGVTIIDNAAREPEIVDTANFLIMLGTNINGAGSNRITIEGAQKLGGGKYSIMPDRIETGTFLVAAAVSRTNVVCLGSRPDTLRFVIKKLRESGADINMGKDWIGLNMHGKRPKAVTVCTKPYPGFPTDMQAQFTLLNIVSKGKGKIIETIFENRFMHVPELVRMGARIKILNNMIVCHGVDSLIGTQVMATDLRASASLVLAGCIAEGLTIVDCVYHIDRGYDHIEKKLRNMGAHIKRVTNK",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine.",
+        "split": "train",
+        "metadata": "Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MEPELEHTLPGTLTWSHSGGPESQEMDFLEQGENSWPSPAVATSSERTCAIRGVKASRWTRQEAVEEAEPPGLGEGAQSRPAAESTRQEATFPKATPLAQAVPLAEAETSPTGWDLLLPDCAASAGGSSTGDLELTIEFPAPEAWDCELEGLGKDRPRPGPSPQAPLLGLSWDDELQKPGAQVYMHFMQEHTCYDAMATSSKLVIFDTTLEIKKAFFAMVANGVRAAPLWDSKKQSFVGMLTITDFILVLHRYYRSPLVQIYEIEEHKIETWREIYLQGCFKPLVSISPNDSLFEAVYALIKNRIHRLPVLDPVSGTVLYILTHKRLLKFLHIFGALLPRPSFLCRTIQDLGIGTFRDLAVVLETAPVLTALDIFVDRRVSALPVVNESGQVVGLYSRFDVIHLAAQQTYNHLDMSVGEALRQRTLCLEGVLSCQPHESLGEVIDRIAREQVHRLVLVDETQHLLGVVSLSDILQALVLSPAGIDALSA",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: AMP/ATP-binding subunit of AMP-activated protein kinase (AMPK), an energy sensor protein kinase that plays a key role in regulating cellular energy metabolism. In response to reduction of intracellular ATP levels, AMPK activates energy-producing pathways and inhibits energy-consuming processes: inhibits protein, carbohydrate and lipid biosynthesis, as well as cell growth and proliferation. AMPK acts via direct phosphorylation of metabolic enzymes, and by longer-term effects via phosphorylation of transcription regulators. AMPK also acts as a regulator of cellular polarity by remodeling the actin cytoskeleton; probably by indirectly activating myosin. The AMPK gamma3 subunit is a non-catalytic subunit with a regulatory role in muscle energy metabolism. It mediates binding to AMP, ADP and ATP, leading to AMPK activation or inhibition: AMP-binding results in allosteric activation of alpha catalytic subunit (PRKAA1 or PRKAA2) both by inducing phosphorylation and preventing dephosphorylation of catalytic subunits. ADP also stimulates phosphorylation, without stimulating already phosphorylated catalytic subunit. ATP promotes dephosphorylation of catalytic subunit, rendering the AMPK enzyme inactive.",
+        "split": "train",
+        "metadata": "AMP/ATP-binding subunit of AMP-activated protein kinase (AMPK), an energy sensor protein kinase that plays a key role in regulating cellular energy metabolism. In response to reduction of intracellular ATP levels, AMPK activates energy-producing pathways and inhibits energy-consuming processes: inhibits protein, carbohydrate and lipid biosynthesis, as well as cell growth and proliferation. AMPK acts via direct phosphorylation of metabolic enzymes, and by longer-term effects via phosphorylation of transcription regulators. AMPK also acts as a regulator of cellular polarity by remodeling the actin cytoskeleton; probably by indirectly activating myosin. The AMPK gamma3 subunit is a non-catalytic subunit with a regulatory role in muscle energy metabolism. It mediates binding to AMP, ADP and ATP, leading to AMPK activation or inhibition: AMP-binding results in allosteric activation of alpha catalytic subunit (PRKAA1 or PRKAA2) both by inducing phosphorylation and preventing dephosphorylation of catalytic subunits. ADP also stimulates phosphorylation, without stimulating already phosphorylated catalytic subunit. ATP promotes dephosphorylation of catalytic subunit, rendering the AMPK enzyme inactive."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MSFESFGDFLAMGHHGPYVWSAYGISLLVLAINVAEPLLARRRYLQEEARRLRREAQQ",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Required for the export of heme to the periplasm for the biogenesis of c-type cytochromes.",
+        "split": "train",
+        "metadata": "Required for the export of heme to the periplasm for the biogenesis of c-type cytochromes."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MTYSLLPHIHSPQDLHALSLDKLPVLCDEIRNKIIESLSLTGGHLASNLGGVELTVALHYVFSSPDDQFIFDVGHQSYVHKLLTGRNTEAFSNIRHDNGLSGFTTPQESNHDIFFSGHAGNALSLALGLAKGSSNSSSHILPILGDAAFSCGLTLEALNNIPADLSKFIIVLNDNQMSISENVGNIPQGISHWMYPQKISKLSQKIHSWIQNLPSFLHKKKTLSHKVDIALKSLSHPLFEQFGLHYVGPIDGHNVKKLVQALQMIKDQPQPILFHVCTVKGNGLAEAERDPIRYHGVKAHFQNTSLKKTSGNVELQTPISFPQHAGNILCRLGKKYPQLQVVTPAMSLGSCLEDFRKQFPDRFTDVGIAEGHAVTFSAGIARSGTPVCCSIYSTFLHRAMDNVFHDVCMQELPVIFAIDRAGLAFHDGRSHHGIYDLGFLCSMPNMVICQPRNALVLERLFFSSLLWKSPCAIRYPNIPANEKASNSFFPFSPILPGEAEILCQGDDLLLIALGHMCNTALTVKEHLLDYGISTTVVDPIFIKPLDRKLLQSLLTHHSKVIILEEHSIHGGLGSEFLLFLNQHNIKADVLSLGVPDMFIPHGNPETILNLIGLTSDHITQRILSHFKFSTPIPIERFFKA",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Catalyzes the acyloin condensation reaction between C atoms 2 and 3 of pyruvate and glyceraldehyde 3-phosphate to yield 1-deoxy-D- xylulose-5-phosphate (DXP).",
+        "split": "train",
+        "metadata": "Catalyzes the acyloin condensation reaction between C atoms 2 and 3 of pyruvate and glyceraldehyde 3-phosphate to yield 1-deoxy-D- xylulose-5-phosphate (DXP)."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MSLVAESNSGTISEQELDKVQLYSDLCLYEEALTKLVDSVDNFKPQLEIGKQLIEADKKLYSTLDLLPQYDSVFTRLRTLDDEISKVDQQTKNILSILNECHDDLNALPLLEEVEFEKKMILKQREKIKSNVLLEYATKLAKFTKIPPTFDKGTIGPNNFIWPAEDALRKGMLAMASLHGKELTKLPGQEDGEEDGSTANEDKNIVKDAEGAEGEIRQDDKKEDDSFVFGANANDAEGDEDKNAGEDEDEAMDSDLDLFNPDEF",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors .",
+        "split": "train",
+        "metadata": "Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene- specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors ."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MEKHLLFKRFAGKRLHLGVTGSIAAFRVPELVRRWQDAGIGVGATLTASAQSFIAPLTFEALGALPVYGGMFAGEDVFGHLEPGQNADALVIAPATADILAKMAHGIADDMLSAQALAFDGPIVVAPAMNPRMWQNLATQANVALLKERGVTFVGPDSGRMACDDEGHGRLADLRMIYLAGLKSLTPQDMEGRNVLVTLGPTREPWDDVRFWTNGSTGSMGASIAIAAWLRGAEVHAVCGAVDIWLPSDAGFQRHDALSAAAMMDAAAGLWPHMDVGIFTAAVADFRPAPHGPGKFKKSGAEHGFSLEFLPNADILRTLAEDRADGQIAVGFAAESSPDMDSLAAAVRSKLASKGADMIVGNRISDGFGRASNRVYAADAQGREEQWPEMPKTQVAWKILDWVRTLGA",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Catalyzes two steps in the biosynthesis of coenzyme A. In the first step cysteine is conjugated to 4'-phosphopantothenate to form 4- phosphopantothenoylcysteine, in the latter compound is decarboxylated to form 4'-phosphopantotheine.",
+        "split": "train",
+        "metadata": "Catalyzes two steps in the biosynthesis of coenzyme A. In the first step cysteine is conjugated to 4'-phosphopantothenate to form 4- phosphopantothenoylcysteine, in the latter compound is decarboxylated to form 4'-phosphopantotheine."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MSSHNIILPDHHLNSPIVLNKLMYYCKLLNILPDPKSPWYEKIKSWTNCCIRVSDSNRMTLSRASKLRELLATYGVYSKNHQQCYTTIIHPQSLSPIMQTVSQLGRSIPTWARIRKEITHSIIAQTNKFESLFHNISKDLTGKTNLFGGFCDLHGSISTAAKRLMNQPGLYLDSPDAHACQFLFQLKTCQRELILLMRQNATTELIRVFDYPELRVLVTPEYSVWVFTRTKQVTLLTFDCLLMYCDLSDGRHNILFTCKLLSHLNHLGCRIRDLLVLIDSLAEKHPLIVYDVVASLESLSYGAIQLHDKVAGYAGTFFSFILAEIQDSLETVLDQGNSESIISQIRNIYSGLTVNEAAELLCVMRLWGHPALNSVDAASKVRQSMCAGKLLKFDTIQLVLAFFNTLIINGYRRKHHGRWPNVCSDSIIGNELKRMYFDQCEIPHDFTLKNYRELSLLEFECTFPIELSDKLNIFLKDKAIAFPKSRWTSPFKADITPRHLLQAPEFKTRANRLLLSFLQLEEFSIESELEYVTTLAYLDDDEFNVSYSLKEKEVKTDGRIFAKLTRKMRSCQVIFEELLAEHVSPLFKDNGVTMAELSLTKSLLAISNLSSTLFETQTRQGDRNARFTHAHFITTDLQKYCLNWRYQSVKLFARQLNRLFGLQHGFEWIHCILMKSTMYVADPFNPPHSNAREALDDNLNSDIFIVSPRGAIEGLCQKMWTIISISAIHASAAVAGLRVASMVQGDNQVIGVTREFLAGHDQTFVDDQ",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: RNA-directed RNA polymerase that catalyzes the transcription of viral mRNAs, their capping and polyadenylation. The template is composed of the viral RNA tightly encapsidated by the nucleoprotein (N). The viral polymerase binds to the genomic RNA at the 3' leader promoter, and transcribes subsequently all viral mRNAs with a decreasing efficiency. The first gene is the most transcribed, and the last the least transcribed. The viral phosphoprotein acts as a processivity factor. Capping is concommitant with initiation of mRNA transcription. Indeed, a GDP polyribonucleotidyl transferase (PRNTase) adds the cap structure when the nascent RNA chain length has reached few nucleotides. Ribose 2'-O methylation of viral mRNA cap precedes and facilitates subsequent guanine-N-7 methylation, both activities being carried by the viral polymerase. Polyadenylation of mRNAs occur by a stuttering mechanism at a slipery stop site present at the end viral genes. After finishing transcription of a mRNA, the polymerase can resume transcription of the downstream gene.",
+        "split": "train",
+        "metadata": "RNA-directed RNA polymerase that catalyzes the transcription of viral mRNAs, their capping and polyadenylation. The template is composed of the viral RNA tightly encapsidated by the nucleoprotein (N). The viral polymerase binds to the genomic RNA at the 3' leader promoter, and transcribes subsequently all viral mRNAs with a decreasing efficiency. The first gene is the most transcribed, and the last the least transcribed. The viral phosphoprotein acts as a processivity factor. Capping is concommitant with initiation of mRNA transcription. Indeed, a GDP polyribonucleotidyl transferase (PRNTase) adds the cap structure when the nascent RNA chain length has reached few nucleotides. Ribose 2'-O methylation of viral mRNA cap precedes and facilitates subsequent guanine-N-7 methylation, both activities being carried by the viral polymerase. Polyadenylation of mRNAs occur by a stuttering mechanism at a slipery stop site present at the end viral genes. After finishing transcription of a mRNA, the polymerase can resume transcription of the downstream gene."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MSLTDQKPRIERFGEITEVIPLPNLTEVQVNSFKAFLQADKAPDERDDTGLQSAFREVFPIDETEKGRSTGLVLDFLEYRLGEPPYTPEECREKDLTYQAPLYAKLQLIHKDSGLIKEDQVFLGDLPLMTDDGSFVINGADRVVISQIHRSPGVYFTSSYKGIKKMYTAAIIPMPKRGPWIELEFNGGVLEMKVNKRKFPVSLLLRVLGYDDAQLKALFTEFDPAAELPEDKSAGMNPDEALLRLFTVLRPGDPPKRDKAIQYLYGLLADPKRYDLGEPGRFKMNTKLGTRRQDRTLLTFEDGRFGDAGLVDTIRYLMALQQGLETVTMGADEDGVAIEVPVTEDDIDHLGNRRVRTVGELLADQLRVGMGRMARGVRERMLLGNPDAATPTKLVNNRPIVAAMREFFGRSQLSQFKDQTNPLSDLRHKRRISALGPGGLTRERAGFDVRDVHRTHYGRICPIETPEGANIGLISSLSSYAKVNDLGFIEAPYRRVVDGRVTDDVVYMTADIEDRYVIAQANSPLNPDGTFAEERVLARKKGDPMLYAPTEVDFMDVSPKQIVSINTSLIPFLEHDDANRALMGSNMQSQAVPLVRADSPAVGTGVEERVVTDSGTSVISDVTGRVTYVDARAIQVTLTEDAPQIGLVKGNVRTFELVRFTRSNQGTNLDQHPIVSVGDEVVPGQVIADGPASDQGRLALGQNITIAIMPFDGFNFEDAICISEGLVRKDFYTSVHIEKDEIEARDTKLGPEKITRDIPGLSEAALRD",
+        "description": "A short report on the protein with the given amino acid sequence highlights: DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates.",
+        "split": "train",
+        "metadata": "DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MSEQFLTFPNIDPVALQLGPVSLHWYGIMYLLGFGFAYWLGTKRAKNSNGVWSVEQVDQLLFNGFWGVVLGGRIGDVFFYSFDRFLQDPLYLFRIWEGGMSFHGGLLGVIVAMLWTSRRQNRNFWQTADFIAPLIPFGLGLGRIGNFINDELWGRVTDVPWAIMFPSGGYLPRHPSQLYEAVLEGLVLFFILNGYIRKPRPTGSVAGLFLVGYGVFRFIVEYFREFDPNVNTAADLITRGQLLSLPMIIGGLVIMVVAYYRHRLSND",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Catalyzes the transfer of the diacylglyceryl group from phosphatidylglycerol to the sulfhydryl group of the N-terminal cysteine of a prolipoprotein, the first step in the formation of mature lipoproteins.",
+        "split": "train",
+        "metadata": "Catalyzes the transfer of the diacylglyceryl group from phosphatidylglycerol to the sulfhydryl group of the N-terminal cysteine of a prolipoprotein, the first step in the formation of mature lipoproteins."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MSHEPEYKDWQQIVELIRSSVDNQQHEMLLTMLMTPDERESLTARVNILNELLKGELSQRQISQMLGVGIATITRGSNELKSKSDTDKDKLKTLLEQGAQ",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: This protein is an aporepressor. When complexed with L- tryptophan it binds the operator region of the trp operon and prevents the initiation of transcription.",
+        "split": "train",
+        "metadata": "This protein is an aporepressor. When complexed with L- tryptophan it binds the operator region of the trp operon and prevents the initiation of transcription."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MSTTPETADFTEWQQVVDLLRQAALEQKDDVMLKLLLTPDEREALLARVNILHELMNGQRSQRKISELLGVGVATITRGSNELKHQSDDTKEWLASLLKKQQQ",
+        "description": "Here is a summary of the protein with the given amino acid sequence: This protein is an aporepressor. When complexed with L- tryptophan it binds the operator region of the trp operon and prevents the initiation of transcription.",
+        "split": "train",
+        "metadata": "This protein is an aporepressor. When complexed with L- tryptophan it binds the operator region of the trp operon and prevents the initiation of transcription."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MKLRDIIRKCRVVAICGNEEAEVTAITSDSRTVTQGSLFVAVEGIFTDGHAYIGKAIEQEAAVVVYDKPMIEEYFSRVTYVQVEDSAEALAIIASTWYGDPSQQLKLVGVTGTNGKTTVASLLYKMFRQLEYSAGLLSTVANYVNDERYATTHTTLDPITLNGYLRKMVDAGCSHAFMEVSSHAIHQKRIYGLRFAGGIFTNLTQDHLDYHKNMLEYRNVKKSFFDNLSKDAFALTNADDKNGGVMMQNSKARKFTYSVKGMADFKARIFEKHFDGTDIEINGKELTVQFVGVFNVYNLLAVYGAGILLGLDGEEVLRHLSLMTPVAGRFQTIRSPRSYTAIVDYAHTPDALTNVLNAIHEVLNNKGHIITVVGCGGNRDKTKRPLMAREAVNLSDRVVLTSDNPRFEEPGDILQDMIDGLTQEQRDASLTIVDRREAIKTACALARPGDVVLIAGKGHEDYQEIKGVRHHFDDREEVEKIFATQHNA",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan.",
+        "split": "train",
+        "metadata": "Catalyzes the addition of meso-diaminopimelic acid to the nucleotide precursor UDP-N-acetylmuramoyl-L-alanyl-D-glutamate (UMAG) in the biosynthesis of bacterial cell-wall peptidoglycan."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MSNTILKCTTRHVRIFTAVVENNDLIFDNGHLTLDIDPDNEFSWSDQSIKKVQDYFRELVDFQADNELSDYSLRKIGSLLEDFIRKLLKDGELSYNPNSRVMNYSMGLPRTQELL",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: NDH-1 shuttles electrons from an unknown electron donor, via FMN and iron-sulfur (Fe-S) centers, to quinones in the respiratory and/or the photosynthetic chain. The immediate electron acceptor for the enzyme in this species is believed to be plastoquinone. Couples the redox reaction to proton translocation, and thus conserves the redox energy in a proton gradient. Cyanobacterial NDH-1 also plays a role in inorganic carbon-concentration.",
+        "split": "train",
+        "metadata": "NDH-1 shuttles electrons from an unknown electron donor, via FMN and iron-sulfur (Fe-S) centers, to quinones in the respiratory and/or the photosynthetic chain. The immediate electron acceptor for the enzyme in this species is believed to be plastoquinone. Couples the redox reaction to proton translocation, and thus conserves the redox energy in a proton gradient. Cyanobacterial NDH-1 also plays a role in inorganic carbon-concentration."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MSIINIVLEGISENHSSQSIVPVLELLRNDKTILSNISKLQLQQLVSRSLQLVRSSDSYSKWCGINLIHQLSSNYVIVAQSGVQFMSALIAVLESYNSTINVLILRNCIECLQVLMHEIRGKPALTREILTPKLSTIITLVMGHIQFDAETCLNLLYDVILHHPNTFRPFANKLRSKLLVFLKGGFGVEFVEMPTSLRKIICQTMAILPIIEKNEPEAKWGNDVKNVISEVTGILNVFDEFFNFRDDSSLGKLISKLPGRGERAELGEGDRERVFDDLSIDFNEPRSLLAISDQVETLLQLLKHYLVGGGITSVRLPLGLCLTLLEVVFSINARFLSYKSDVRDDEIRQLISTVLNRVHTSGIELLSSLLQFRGALVPHLNQIWTMLEYLVPMIQNKRIDAAEVVKNEAVFAKLVECVGLYLNLVGAVSDGASLVPFVDVALTLVEPRKDSAGNMQQSAADGQQKNQNKNKNQKNKIKKKNASSAPMSDILSHEHLFQQTIPTQTLLAVQYFFSQVITKVELPSNQHYKTLRFIIRQCVEHKNSNLEQAVPKQLRDLLVNTVLYPGYDKNNALPIVSSILIDDPIISVFNNPRLPALPKYHSMSTSMDNKDVTEVGLEQTTYQRNRNGDDDHDDDDDDDDDDDEEVSASKGSGKKLSAKELAIQNLMREQAERQKLDREKEANARIEKDAEHEATPSFAFQMEKRPREEIVEEVGKVEKKIKVGEHGLVKDTVLKSTVETVVDNKNDVANVSKNDQAQDAVGADEDNE",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Component of the RIX1 complex required for processing of ITS2 sequences from 35S pre-rRNA and the nucleoplasmic transit of the pre- 60S ribosomal subunits. Regulates pre-60S association of the critical remodeling factor MDN1.",
+        "split": "train",
+        "metadata": "Component of the RIX1 complex required for processing of ITS2 sequences from 35S pre-rRNA and the nucleoplasmic transit of the pre- 60S ribosomal subunits. Regulates pre-60S association of the critical remodeling factor MDN1."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MANKKYDVIVVGAGHAGIEACLSSARLGLNTLMVTTNTDRIGYMSCNPSIGGLAKGHMVREIDVLGGQMGVAADETCIQYKRLNASKGPAVRGTRVQNDKHLYSQFQKEALYNQPNLEVLQGEVKRLILEKDLCVGVVLQDGSEIFGKATIITTGTFMNGVMHIGLRQEAGGRVGDQPSIGLSDQLAQFGFEVKRLKTGTPARLLKDSIDWSKTIPQAGDEKVYPFSFRSSDKLKLPQVLCYLTRTTEETHDIIRGNLDKSPMYCGIIEGVGPRYCPSIEDKITRFAERTSHQTFLEPEGLSTDLIYLQGISTSLPEDVQDRFLKTIPGLENVKVARYGYAVEYDYIEPTQIWHRLETRTIRQLFLAGQINGTSGYEEAAAQGLIAGINAAHSILGREEFILGRDQAYMGVMIDDLVTKGTREPYRMFTSRAEHRLVLREDNTIDRLSDLGRKLGLVSAESFELLTNLRERRQVLHDRLKNTVLYPTKDIQAILATIPTPAMSKSLTFEELLRRPELTSSHLELLNFELDPDPNVVEPVEIEVKYSGYVKRQMDLIVQSKRLEEMLLPDDLAYAEIRGLSNEEKDKLLRVKPRTLGQAQRISGVNPSAIQAIMIHLKGHKKIKEMGLEGQSGAGSTDSILAH",
+        "description": "Here is a summary of the protein with the given amino acid sequence: NAD-binding protein involved in the addition of a carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of certain tRNAs, forming tRNA-cmnm(5)s(2)U34.",
+        "split": "train",
+        "metadata": "NAD-binding protein involved in the addition of a carboxymethylaminomethyl (cmnm) group at the wobble position (U34) of certain tRNAs, forming tRNA-cmnm(5)s(2)U34."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MRDRLFFLLSKYGIRPRDSIGQHFLIIEDVIEKAIETANVNENDVILEVGPGLGFLTDELAKRAKKVYTIEIDQKIIEILKKEYSWNNVKIIQGDAVRVEWPKFNKVVSNIPYKISSPFTFKLLKTDFERAVVMYQLEFALRMVAKPGSRNYSRLSLMAQALGNVEIVMKIGKGAFYPRPKVDSALVLIEPRKDKIVLNENLVKALFQHRRKTVPRALKDSIHMLGVSKDEIRGIINNVPHSNKRVFQLYPEEVKDIEEYLKKHGIIS",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Specifically dimethylates two adjacent adenosines in the loop of a conserved hairpin near the 3'-end of 16S rRNA in the 30S particle. May play a critical role in biogenesis of 30S subunits.",
+        "split": "train",
+        "metadata": "Specifically dimethylates two adjacent adenosines in the loop of a conserved hairpin near the 3'-end of 16S rRNA in the 30S particle. May play a critical role in biogenesis of 30S subunits."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MEINIITNKINKLIQRKKDLKRYLDYVAKSTRILEIDLELSSTEIWKKKEYVHNLNKEKNLLNIIINKINNIEKNIKEMIIFLDLAIETKDNAIIQEISEEIKKIAEKIQELEFYRMFSNQHDHCNCYIDVQAGSGGVDAQDWSKILLRMYLKWSDKKGFKTEIIEESTGEIVGIKSSTIKVSGQYAFGWLRTETGIHRLIRKSPFDSGKRRHTSFSSIFIYPDIEDKINIEINPSDLRIDVYRASGAGGQHVNRTESAVRITHLPTNIVTQCQNNRSQHKNKEQAIKQMKSKLYEMKIKEKKEKQKKIEKNKSDISWGNQIRSYILDNSKIKDLRTGVEKYNVQSVLDGDLDDFIEQSLIMGL",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Peptide chain release factor 2 directs the termination of translation in response to the peptide chain termination codons UGA and UAA.",
+        "split": "train",
+        "metadata": "Peptide chain release factor 2 directs the termination of translation in response to the peptide chain termination codons UGA and UAA."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MKPNNLIGFPYSRLQEFLLVHGIKPYRAHQIFVWVYHRKLYDFDRMSNLSKSLRTLLKEHFYISLPLIRSRTKSQDGSIKYLFELKDGLTIESVWMPTDHRKTLCVSSQVGCRLACTFCMTGTMGLKRNLSSDEIIGQYLAVNDSLSKENQVTNIVFMGMGEPLDNYDATIDAIRLMIMPEALRLSSRKITLSTAGQVDLIQKFKNENLHVNLAISLNATDNKTREEIMPINKKYPIEELINCLREYPLKPSRRFTFEYVMLAGINDRDEDARRLSKLLHGIPCKVNLILFNKFSPSKFESPSKERAHSFQQYLLSKNHTVFIRQNRATDILGACGQLATQPLSPASV",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Specifically methylates position 2 of adenine 2503 in 23S rRNA and position 2 of adenine 37 in tRNAs.",
+        "split": "train",
+        "metadata": "Specifically methylates position 2 of adenine 2503 in 23S rRNA and position 2 of adenine 37 in tRNAs."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MIILGVESSCDETAAAVVEDGSRVLSDVVASQAALHGPYGGVVPELASRKHVEAILPVLGEAMHEAGVTWGQVDAIAATQGPGLVGALLVGLSAAKALAYALKKPMVAVNHLEGHIQAAFLGREELTRPFVCLVVSGGHTALYRVDPDGTTSFLGSTRDDAAGEAFDKVAKLLALGYPGGVEIERLAAGGDPHAFNFPRAFIDGRSLEFSFSGLKTSVATFVRQHGPPSESGEQGAYRLADLLASFQEAVVEVLVNKTVRAAGMCSVGDIAVVGGVAANLRLRERFEEEAGMHRFELHLPARRYCTDNAVMIAAAAYRTWKRSGFCLDPVDLDARSRWF",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Required for the formation of a threonylcarbamoyl group on adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning with adenine. Is involved in the transfer of the threonylcarbamoyl moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37, together with TsaE and TsaB. TsaD likely plays a direct catalytic role in this reaction.",
+        "split": "train",
+        "metadata": "Required for the formation of a threonylcarbamoyl group on adenosine at position 37 (t(6)A37) in tRNAs that read codons beginning with adenine. Is involved in the transfer of the threonylcarbamoyl moiety of threonylcarbamoyl-AMP (TC-AMP) to the N6 group of A37, together with TsaE and TsaB. TsaD likely plays a direct catalytic role in this reaction."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MSFTPKNLNVKYTFNVSRNRSKVWLISGFAVLISFLGFFFSWTNQSIGFPLRPGFDFTGGTQIILERKCDSECNKITTINISEAFNNAKFSNQETSQKLFDARIQFLDGYKSLLIRSPELSPSESKEVIESIEFVAGPLEDGGQSVESIGPTLGAKLLQTTLISLLVAFSCVAIYISIRFDRMFSLYALLALFHDVLIVCGVFSWLGIINEVEVNSLFAVALLTIAGYSVNDTVVVFDRIREINKQESRMNFKQKVDFAVSATLTRTLYTSGTTLLPLIALIFFGGTTLYWFAIALALGVVVGSWSSIALVPSLLTLRKEN",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Probably participates in protein translocation into and across both the cytoplasmic and thylakoid membranes in cyanobacterial cells.",
+        "split": "train",
+        "metadata": "Probably participates in protein translocation into and across both the cytoplasmic and thylakoid membranes in cyanobacterial cells."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MFCIQCEQTIRTPAGNGCSYAQGMCGKLAATSDLQDLLIYMLQGVSVYAVKARELGVVDTEVDTFVPKAFFSTLTNVNFDDERIIAYAKQAAQYRESLKNAYEATCEQSGKTAEQMPPVAQLVLGTSKLEMLSQAPISLLNKDKNNIHEDILGLRLLCLYGLKGAAAYMEHARVLGKTDVDIAADFHRIMAFLGEPSVDADKLFSTAMEIGQLNYRIMALLDAGETEAFGHPEPTVVNTKPVKGKAILVSGHDMKDLELILEQTAGKGINVYTHGEMLPALAYPAFKKYPHLVGNYGSAWQNQQKEFANFPGAVVMTSNCIIDPNVGQYSDRIFTRSIVGWPGVVHVTGDDFSVVIEKALSNDGFHYDEIPHNITIGFARNALMAAAPTVVENVKNGSIKHFFLVGGCDGDKSERSYFTDLAKSAPKDSIILTLGCGKYKFNKLEFGDINGIPRLLDIGQCNDAYSAIQLAIALSQIFECDINELPLNLVLSWFEQKAIVVLLTLLSLGVKNIRTGPTPPAFLTANLAKILEDKFGLRNTTTVEADLKTMLNVA",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Catalyzes the reduction of hydroxylamine to form NH(3) and H(2)O.",
+        "split": "train",
+        "metadata": "Catalyzes the reduction of hydroxylamine to form NH(3) and H(2)O."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MFVVKMVLGFLILLSPLCATGLDISQTDIIERSLNFLLFVGILWYFLAKKLRSFLRSKSLEISKRLEEIQAQLKVSKENKKKLLKELEQAKEKAELIISDANKEAYTITQKYELQTKMDVENLIKNSKALMDLEVKKIKRELVESVFKDLRESKKVSFNAQDCVNILKQRL",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Component of the F(0) channel, it forms part of the peripheral stalk, linking F(1) to F(0).",
+        "split": "train",
+        "metadata": "Component of the F(0) channel, it forms part of the peripheral stalk, linking F(1) to F(0)."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MLDVNFFDELRIGLATADDIRQWSHGEVKKPETINYRTLKPEKDGLFCEKIFGPTRDWECYCGKYKRVRFKGIICERCGVEVTRAKVRRERMGHIELAAPVTHIWYFKGVPSRLGYLLDLAPKDLEKVIYFAAYMVTWVDTEARERDLPSLEAQISVERQHLEQRRDSAIEERHRKLEADLAELEEQGAKADARRKVREAAEREIRQIRDRAQREIDRLEEVWNRFKNLKVQDLEGDEQLYREMRDRFGKYFRGGMGAQAIKERLANFDLEAEAEKLREIIRTGKGQKKARALKRLKVVSAFLNTRNSPMGMVLDCVPVIPPDLRPMVQLDGGRFATSDLNDLYRRVINRNNRLKRLLDLGAPEIIVNNEKRMLQEAVDALFDNGRRGRPVTGPGNRPLKSLSDMLKGKQGRFRQNLLGKRVDYSGRSVIVVGPQLKLHQCGLPKQMALELFKPFVMKRLVDLNHAQNIKSAKRMVERARPVVWDVLEEVISEHPVLLNRAPTLHRLGIQAFEPQLVEGKAIQIHPLVCTAFNADFDGDQMAVHLPLSAEAQAEARILMLATNNILKPSDGKPVTMPTQDMVIGLYYLTTMKEGAKGEGRAFSNIGEAIMAYDLGELDLQAKIKLRVEGDTVPPVNWEPPEDYQPGQPYILETTLGRYLFNETTPEDYPFVNQQMGKKQLSALVTELAEKYSKVQVATTLDALKDAGYYWATRSGLTISISDVIPPPNKQQILDKYEQQAQKIQRQYERGLISDDERRQELIHIWTKA",
+        "description": "A short report on the protein with the given amino acid sequence highlights: DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates.",
+        "split": "train",
+        "metadata": "DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "MTDIQASMENTLNAVSINNHSKQRNTIQDGIYLVTDPGMSMARLGKPSHGDDKQWHREAIDATLDLVKQTSEAGIRTIQLRWKGVDAGYFLDLALAAYEEAVPGTSIIINDRIDVFLASRQQGADIHGIHIGQTDLPAPVVRAMVGQRPHIGWSAASDAELEAANAMPDVIDAVGTGVLRHTNTKPNAPHAMGFEGLERACAISKHPLIAIGGIVPEDIPQLAQIPVAAIAMVSAIVAAKDPAQTAARCLQLWHENRPRSEPFVSICCRLCNVNGTIMNNQIPRILSIAGTDPTGGAGLHADLKSISAAGGFAMGAVTAIVAQNTNGVTSIEMPSDDIVTAQLNAVSDDVEIDGVKIGMLGTTDVISTVRAWLEQHNAPVVVLDPVMVATSGDRLLVPKAEAALLDMLHLADYITPNIPELEVIAGVAQGSIDSPEAAQSAAQRVAQRFHVRVVMKGGHLSDEVLSNAIVDESGVIAQVTCPRVHTSSTHGTGCSMSSALATRLAAGESAQDALSWVTSWLYESISHGEALHVGHGHGPVDHMHRLRRLASAASNRPWPSYRLSAEELLSGEGDAADSPARTNASTSTSSPQIGRPTKLTRDWNTDPLVPAAGPWTQRLWNASRPIVLGTQSLPFIQGLADGTLQTDHFTAYQFQDFLYLNQYARALACLGSRAVDDRERAHWTTSAAGISQEEQSLHRDWLSHHDTSNIETATSPITAGYTDFLLARTCGEDYLVGAAAVLPCFWLYAHIGLQLVAYNREDHPFHRW",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine pyrophosphate (HMP-PP) to form thiamine monophosphate (TMP).",
+        "split": "train",
+        "metadata": "Condenses 4-methyl-5-(beta-hydroxyethyl)thiazole monophosphate (THZ-P) and 2-methyl-4-amino-5-hydroxymethyl pyrimidine pyrophosphate (HMP-PP) to form thiamine monophosphate (TMP)."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MSDPASTSIPAHATNGEAHAPNDHHHAQLPLSDSKPVSVNRKKQKRRQKQAARLAAERQFGNGHISADMSEQNGLSPTAPASHVSDDHDLDERANGETYYEEIHDATHDLDDHPPNLSNGQPGQQNATARKSKKKKGKKNRAGSQTMGDESSTPLSTPSVSMSQHLPPPLPSHLPHTLLKTSKDRSIWNTSTQEERENIKTFWLELGEEERRQLVKVEKDAVLKKMKEQQKHSCSCTVCGRKRTAIEEELEVLYDAYYEELEQYANNNQGSFEKGPPMVPPPRLYHPPLRSPGQHTRTQGQFHPSRGRIHELPEDDEDLEEDYDEDDEDDEPYSDDEYEDEETRAARADFFAFGNSLTVKGRRQIMLLSFIFPKPVTNLIFTLADGILTVADDLLKNDGKHFIDMMEQLAERRMQREEDTQYGIAAAHQSLHGGHNHGPLDDDDYDEEEDEDYDSQEDEDYEEDEMVSSGNWPGGDAVQADSFLQDAMTEEQRMEEGRRMFQIFAARMFEQRVLTAYREKVAEQRQQKLIEELMEEQTRNEQRNAKKAREAQKRKDKKKLQKQAKEEEKARREAEKAAEEAAAKAEQEKKLEEQRRKREEQKKKREAERKAQEAERLRKEAEKQKRLREERERQAEIERKQREQKELEKKRREEARQNELREKKTKDERERKLREAAPKTDYEGQEKRDPQAKRVSHTGPVPIPASLQHAQALPAYLQSPHYQIATPIVPKAPTPARPRQPSQQGSHTSSPRSQPASTEPSQVSISPR",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: May act as a negative regulator of salt tolerance.",
+        "split": "train",
+        "metadata": "May act as a negative regulator of salt tolerance."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "SPATMGFAGVR",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Myoactive peptide. Increases the amplitude and frequency of spontaneous contractions and tonus of hindgut muscle.",
+        "split": "test",
+        "metadata": "Myoactive peptide. Increases the amplitude and frequency of spontaneous contractions and tonus of hindgut muscle."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "TQSTGTSQTIAVGLWGGPDN",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Alpha-methyl-D-mannoside and D-mannose specific lectin. Binds IgA.",
+        "split": "test",
+        "metadata": "Alpha-methyl-D-mannoside and D-mannose specific lectin. Binds IgA."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "GLDLGLSRGFSGSQAAKHLMGLAAANYAGGP",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Regulation of fluid secretion. Stimulates primary urine secretion by the Malpighian tubules. Increases the frequency of contraction in the heart and hindgut. Causes a dose-dependent stimulation of cAMP levels in the dorsal vessel and hindgut, but not in Malpighian tubules. Has synergistic effects on urine secretion by Malpighian tubules with serotonin.",
+        "split": "test",
+        "metadata": "Regulation of fluid secretion. Stimulates primary urine secretion by the Malpighian tubules. Increases the frequency of contraction in the heart and hindgut. Causes a dose-dependent stimulation of cAMP levels in the dorsal vessel and hindgut, but not in Malpighian tubules. Has synergistic effects on urine secretion by Malpighian tubules with serotonin."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MPSQKSPTKRSPTKRSPQKGGKGAKR",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Core component of nucleosome. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability. DNA accessibility is regulated via a complex set of post-translational modifications of histones, also called histone code, and nucleosome remodeling.",
+        "split": "test",
+        "metadata": "Core component of nucleosome. Nucleosomes wrap and compact DNA into chromatin, limiting DNA accessibility to the cellular machineries which require DNA as a template. Histones thereby play a central role in transcription regulation, DNA repair, DNA replication and chromosomal stability. DNA accessibility is regulated via a complex set of post-translational modifications of histones, also called histone code, and nucleosome remodeling."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MSAATEQQNNGDVAVEKVAADDVSAVKDDLKAKAAAEDKAAAADAAGDAADNGTSKDGEDAADAAAAAPAKESVKGTKRPAEAKSAESKKAKKAAAADGDSDEEEALEEIIEGDSEIESDEYDIPYDGEEDDIECDDDDDDNDDGSGSDDQA",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Negatively regulates tyramine beta-hydroxylase tbh and thus the conversion of tyramine (TA) to octopamine (OA). In tyrosine decarboxylase 2 (Tdc2) neurons, acts in an amine-mediated signaling pathway to negatively regulate acute ethanol sensitivity probably via tbh-mediated depletion of TA.",
+        "split": "test",
+        "metadata": "Negatively regulates tyramine beta-hydroxylase tbh and thus the conversion of tyramine (TA) to octopamine (OA). In tyrosine decarboxylase 2 (Tdc2) neurons, acts in an amine-mediated signaling pathway to negatively regulate acute ethanol sensitivity probably via tbh-mediated depletion of TA."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MAFFTGLWGPFTCVSRVLSHHCFSTTGSLSAIQKMTRVRVVDNSALGNSPYHRAPRCIHVYKKNGVGKVGDQILLAIKGQKKKALIVGHCMPGPRMTPRFDSNNVVLIEDNGNPVGTRIKTPIPTSLRKREGEYSKVLAIAQNFV",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Forms part of 2 intersubunit bridges in the assembled ribosome. Upon binding to MALSU1 intersubunit bridge formation is blocked, preventing ribosome formation and repressing translation (Probable).",
+        "split": "test",
+        "metadata": "Forms part of 2 intersubunit bridges in the assembled ribosome. Upon binding to MALSU1 intersubunit bridge formation is blocked, preventing ribosome formation and repressing translation (Probable)."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MDTEEIKEEMQEAAEAAIENAVETAELETAAIKAEGAAAAAEQSAEQAAVMAATLAASVEANAAQQIAEHSEQVQTQEEKISWLENQVMAMASNLQMMQEAVTALTVSQSLTPEPSPVPAVEVEAMPEAVTVEILPESAGDQQEAEPVPSVGDQQETAPRKRFRAI",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Together with the packaging ATPase P9, forms the external part of the portal vertex that is embeded in the capsid and which plays critical roles in genome packaging and genome ejection. Both proteins multimerize as a single ring-shaped heterdodecamer arranged around a central channel.",
+        "split": "test",
+        "metadata": "Together with the packaging ATPase P9, forms the external part of the portal vertex that is embeded in the capsid and which plays critical roles in genome packaging and genome ejection. Both proteins multimerize as a single ring-shaped heterdodecamer arranged around a central channel."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MALKTLQALIFLGLFAASCLAQAPAPAPITFLPPVESPSPVVTPTAEPPAPVASPPIPANEPTPVPTTPPTVSPPTTSPTTSPVASPPKPYALAPGPSGPTPAPAPAPRADGPVADSALTNKAFLVSTVIAGALYAVLA",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death.",
+        "split": "test",
+        "metadata": "Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MSVSRLFSNPKFVYPLVGATIGSIGLAYYSTQAQFYIANETGKTFTGGDQWIDLKLKKSEDLTHNTKHLTFELLNPDDVSGLITASMLMTKYVTPKGNNVIRPYTPVSDPDQKGTLDFVIKRYENGKMSNHIHNLKEGETLSFKGPVVKWKWEPNQFKSIALIGGGTGITPLYQLLREITSNPEDKTKVSLIYGNTSPEDVLIKDRIDDIAAKHKDQVKVTYFVDENKATKDWEGEVGFITKEFLEKELDKPSPDFKIFVCGPPGLYKAISGVKVSPTDQGEVEGALKDLGFSKEHVFKF",
+        "description": "A short report on the protein with the given amino acid sequence highlights: May mediate the reduction of outer membrane cytochrome b5.",
+        "split": "test",
+        "metadata": "May mediate the reduction of outer membrane cytochrome b5."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MDKQKIADSIRAVYNYKPGVIFRDITTLIGDAEVFKEVINILRSRYENQSIDFIAAIEARGFIFGSALAYALGIGFVPIRKKGKLPYNTISEKYTLEYGTDELHIHTDAFRDKKNAKVVLIDDLIATGGTAEASVKLIKSIGAQCVEAAFVINLKGLEGEKKLAPYTQVFSIVEYEGK",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Catalyzes a salvage reaction resulting in the formation of AMP, that is energically less costly than de novo synthesis.",
+        "split": "test",
+        "metadata": "Catalyzes a salvage reaction resulting in the formation of AMP, that is energically less costly than de novo synthesis."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MARLFVVVALLALAVGTVFAADAPSAAPTASPTKSPTKAPAAAPKSSAAAPKASSPVAEEPTPEDDYSAASPSDSAEAPTVSSPPAPTPEADGPSSDGPSSDGPAAAESPKSGATTNVKLSIAGTVAAAGFFIFSL",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death.",
+        "split": "test",
+        "metadata": "Proteoglycan that seems to be implicated in diverse developmental roles such as differentiation, cell-cell recognition, embryogenesis and programmed cell death."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "INWKGIAAMKKLL",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Mast cell degranulating peptide. Has little hemolytic activity. Shows antimicrobial activity against the Gram-negative bacteria E.coli ATCC 25922 (MIC=15 ug/ml), the Gram-positive bacteria S.aureus ATCC 2592 (MIC=3.7 ug/ml) and the fungus C.albicans ATCC 2002 (MIC=7.5 ug/ml).",
+        "split": "test",
+        "metadata": "Mast cell degranulating peptide. Has little hemolytic activity. Shows antimicrobial activity against the Gram-negative bacteria E.coli ATCC 25922 (MIC=15 ug/ml), the Gram-positive bacteria S.aureus ATCC 2592 (MIC=3.7 ug/ml) and the fungus C.albicans ATCC 2002 (MIC=7.5 ug/ml)."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MDADSLLLSLELASGSGQGLSPDRRASLLTSLMLVKRDYRYDRVLFWGRILGLVADYYIAQGLSEDQLAPRKTLYSLNCTEWSLLPPATEEMVAQSSVVKGRFMGDPSYEYEHTELQKVNEGEKVFEEEIVVQIKEETRLVSVIDQIDKAVAIIPRGALFKTPFGPTHVNRTFEGLSLSEAKKLSSYFHFREPVELKNKTLLEKADLDPSLDFMDSLEHDIPKGSWSIQMERGNALVVLRSLLWPGLTFYHAPRTKNYGYVYVGTGEKNMDLPFML",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia .",
+        "split": "test",
+        "metadata": "Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia ."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "TPVVNPPFLQQT",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Has antibacterial activity against the Gram-positive bacteria L.monocytogenes, L.lactis subsp lactis and L.curvatus H28, but not against the Gram-positive bacteria L.curvatus CWBI-B28, L.brevis and L.plantarum or the Gram-negative bacteria E.coli and Pseudomonas sp 55. Has no antifungal activity against S.cerevisiae, Penicillium sp BKS- TAN2 or A.niger.",
+        "split": "test",
+        "metadata": "Has antibacterial activity against the Gram-positive bacteria L.monocytogenes, L.lactis subsp lactis and L.curvatus H28, but not against the Gram-positive bacteria L.curvatus CWBI-B28, L.brevis and L.plantarum or the Gram-negative bacteria E.coli and Pseudomonas sp 55. Has no antifungal activity against S.cerevisiae, Penicillium sp BKS- TAN2 or A.niger."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MENEHQYSGARCSGQAAYVAKRQECAK",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: A short protein whose stop codon overlaps with the start codon of downstream iraD; its mRNA secondary structure is predicted to fold and sequester the Shine-Dalgarno sequence of iraD. When this protein is expressed the downstream iraD is also expressed due to ribosomal coupling.",
+        "split": "test",
+        "metadata": "A short protein whose stop codon overlaps with the start codon of downstream iraD; its mRNA secondary structure is predicted to fold and sequester the Shine-Dalgarno sequence of iraD. When this protein is expressed the downstream iraD is also expressed due to ribosomal coupling."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "SGGGKEAAETFNRVESHPRPDA",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Inhibits insect alpha-amylases.",
+        "split": "test",
+        "metadata": "Inhibits insect alpha-amylases."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "MGKQPVKLKAVVYAISPFQQKIMPGLWKDLPGKIHHKVSENWISATLLLGPLVGTYSYVQHFLEKEKLEHRY",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Component of the ubiquinol-cytochrome c oxidoreductase, a multisubunit transmembrane complex that is part of the mitochondrial electron transport chain which drives oxidative phosphorylation. The respiratory chain contains 3 multisubunit complexes succinate dehydrogenase (complex II, CII), ubiquinol-cytochrome c oxidoreductase (cytochrome b-c1 complex, complex III, CIII) and cytochrome c oxidase (complex IV, CIV), that cooperate to transfer electrons derived from NADH and succinate to molecular oxygen, creating an electrochemical gradient over the inner membrane that drives transmembrane transport and the ATP synthase. The cytochrome b-c1 complex catalyzes electron transfer from ubiquinol to cytochrome c, linking this redox reaction to translocation of protons across the mitochondrial inner membrane, with protons being carried across the membrane as hydrogens on the quinol. In the process called Q cycle, 2 protons are consumed from the matrix, 4 protons are released into the intermembrane space and 2 electrons are passed to cytochrome c.",
+        "split": "test",
+        "metadata": "Component of the ubiquinol-cytochrome c oxidoreductase, a multisubunit transmembrane complex that is part of the mitochondrial electron transport chain which drives oxidative phosphorylation. The respiratory chain contains 3 multisubunit complexes succinate dehydrogenase (complex II, CII), ubiquinol-cytochrome c oxidoreductase (cytochrome b-c1 complex, complex III, CIII) and cytochrome c oxidase (complex IV, CIV), that cooperate to transfer electrons derived from NADH and succinate to molecular oxygen, creating an electrochemical gradient over the inner membrane that drives transmembrane transport and the ATP synthase. The cytochrome b-c1 complex catalyzes electron transfer from ubiquinol to cytochrome c, linking this redox reaction to translocation of protons across the mitochondrial inner membrane, with protons being carried across the membrane as hydrogens on the quinol. In the process called Q cycle, 2 protons are consumed from the matrix, 4 protons are released into the intermembrane space and 2 electrons are passed to cytochrome c."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "MGGLDGEQKLLIKKLVNFRMKEGKRTRVRAIVYQTFHRPARTERDVIKLMVDAVENIKPICEVAKVGVAGTIYDVPGIVARDRQQTLAIRWILEAAFKRRISYRISLEKCSFAEILDAYQKRGSARRKRENLHGLASTNRSFAHFRWW",
+        "description": "A short report on the protein with the given amino acid sequence highlights: One of the primary rRNA binding proteins, it binds directly to 18S rRNA where it nucleates assembly of the head domain of the small subunit.",
+        "split": "test",
+        "metadata": "One of the primary rRNA binding proteins, it binds directly to 18S rRNA where it nucleates assembly of the head domain of the small subunit."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MKQGINGFARRGRL",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Catalyzes the oxidative phosphorylation of glyceraldehyde 3- phosphate (G3P) to 1,3-bisphosphoglycerate (BPG) using the cofactor NAD. The first reaction step involves the formation of a hemiacetal intermediate between G3P and a cysteine residue, and this hemiacetal intermediate is then oxidized to a thioester, with concomitant reduction of NAD to NADH. The reduced NADH is then exchanged with the second NAD, and the thioester is attacked by a nucleophilic inorganic phosphate to produce BPG.",
+        "split": "test",
+        "metadata": "Catalyzes the oxidative phosphorylation of glyceraldehyde 3- phosphate (G3P) to 1,3-bisphosphoglycerate (BPG) using the cofactor NAD. The first reaction step involves the formation of a hemiacetal intermediate between G3P and a cysteine residue, and this hemiacetal intermediate is then oxidized to a thioester, with concomitant reduction of NAD to NADH. The reduced NADH is then exchanged with the second NAD, and the thioester is attacked by a nucleophilic inorganic phosphate to produce BPG."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MHAVLITLLVIVSIALIIVVLLQSSKSAGLSGAISGGAEQLFGKQKARGLDLILHRITVVLAVLFFVLTIALAYIL",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Involved in protein export. Participates in an early event of protein translocation .",
+        "split": "test",
+        "metadata": "Involved in protein export. Participates in an early event of protein translocation ."
+    },
+    {
+        "instruction": "Please provide a summary of the key features and characteristics of the protein with the following amino acid sequence: ",
+        "sequence": "KDDHCKDLGSIDDDE",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Inhibits trypsin and alpha-chymotrypsin.",
+        "split": "test",
+        "metadata": "Inhibits trypsin and alpha-chymotrypsin."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MSAGVITGVLLVFLLLGYLVYALINAEAF",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Part of the high-affinity ATP-driven potassium transport (or Kdp) system, which catalyzes the hydrolysis of ATP coupled with the electrogenic transport of potassium into the cytoplasm. This subunit may be involved in stabilization of the complex.",
+        "split": "train",
+        "metadata": "Part of the high-affinity ATP-driven potassium transport (or Kdp) system, which catalyzes the hydrolysis of ATP coupled with the electrogenic transport of potassium into the cytoplasm. This subunit may be involved in stabilization of the complex."
+    },
+    {
+        "instruction": "Analyze the protein with the following sequence and describe its properties: ",
+        "sequence": "MEKLSSKDKELIRGSWDSLGKNKVPHGVILFSRLFELDPELLNLFHYTTNCGSTQDCLSSPEFLEHVTKVMLVIDAAVSHLDDLHSLEDFLLNLGRKHQAVGVKPQSFAMVGESLLYMLQCSLGQAYTASLRQAWLNMYSVVVASMSRGWAKNGEDKAD",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Involved in oxygen transport in the brain. Hexacoordinate globin, displaying competitive binding of oxygen or the distal His residue to the iron atom. Capable of penetrating cell membranes .",
+        "split": "test",
+        "metadata": "Involved in oxygen transport in the brain. Hexacoordinate globin, displaying competitive binding of oxygen or the distal His residue to the iron atom. Capable of penetrating cell membranes ."
+    },
+    {
+        "instruction": "Assess the following protein sequence and provide a brief report on its primary characteristics: ",
+        "sequence": "INLLKIAKGIIKSL",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: Mast cell degranulating peptide. Also permeates anionic liposomes. Has little hemolytic activity. Has an amphiphilic alpha- helix conformation. Shows broad-spectrum antimicrobial activity against the Gram-positive bacteria S.aureus ATCC 6538 (MIC=5 ug/ml), S.saprophyticus CS (MIC=5 ug/ml), S.epidermidis CS (MIC=5 ug/ml), B.subtilis CCT 2471 (MIC=40 ug/ml), and the Gram-negative bacteria E.coli CCT 1371 (MIC=20 ug/ml), E.coli ATCC 25922 (MIC=50 ug/ml), and P.aeruginosa ATCC 15442 (MIC=20 ug/ml). Blocks the lobster neuromuscular transmission. Induces the depolarization of the muscle membrane.",
+        "split": "test",
+        "metadata": "Mast cell degranulating peptide. Also permeates anionic liposomes. Has little hemolytic activity. Has an amphiphilic alpha- helix conformation. Shows broad-spectrum antimicrobial activity against the Gram-positive bacteria S.aureus ATCC 6538 (MIC=5 ug/ml), S.saprophyticus CS (MIC=5 ug/ml), S.epidermidis CS (MIC=5 ug/ml), B.subtilis CCT 2471 (MIC=40 ug/ml), and the Gram-negative bacteria E.coli CCT 1371 (MIC=20 ug/ml), E.coli ATCC 25922 (MIC=50 ug/ml), and P.aeruginosa ATCC 15442 (MIC=20 ug/ml). Blocks the lobster neuromuscular transmission. Induces the depolarization of the muscle membrane."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "APLTNEYLNHLCHKC",
+        "description": "Here is a summary of the protein with the given amino acid sequence: Major component of the pollen coat.",
+        "split": "test",
+        "metadata": "Major component of the pollen coat."
+    },
+    {
+        "instruction": "Examine the given protein sequence and share a brief overview of its attributes: ",
+        "sequence": "LVSGCADLTALAAR",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Removal of H(2)O(2), oxidation of toxic reductants, biosynthesis and degradation of lignin, suberization, auxin catabolism, response to environmental stresses such as wounding, pathogen attack and oxidative stress. These functions might be dependent on each isozyme/isoform in each plant tissue.",
+        "split": "test",
+        "metadata": "Removal of H(2)O(2), oxidation of toxic reductants, biosynthesis and degradation of lignin, suberization, auxin catabolism, response to environmental stresses such as wounding, pathogen attack and oxidative stress. These functions might be dependent on each isozyme/isoform in each plant tissue."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MANDCKCPNGCSCPNCANGGCQCGDKCECKKQSCHGCGEQCKCGSHGSSCHGSCGCGDKCECK",
+        "description": "A short report on the protein with the given amino acid sequence highlights: The metallothioneins are involved in the cellular sequestration of toxic metal ions.",
+        "split": "test",
+        "metadata": "The metallothioneins are involved in the cellular sequestration of toxic metal ions."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "GVFCGEACAQASCSIAGCECIAGLCYKN",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Probably participates in a plant defense mechanism.",
+        "split": "test",
+        "metadata": "Probably participates in a plant defense mechanism."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "GGPSQKQKQHKVNLVNIKVYI",
+        "description": "A summary of the protein's main attributes with the input amino acid sequence reveals: Hemocyanins are copper-containing oxygen carriers occurring freely dissolved in the hemolymph of many mollusks and arthropods.",
+        "split": "train",
+        "metadata": "Hemocyanins are copper-containing oxygen carriers occurring freely dissolved in the hemolymph of many mollusks and arthropods."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "MEYVYAALILNESDEEVNEENITAVLEAAGVDVEESRVKALVAALEDVDIEEAIETAAAAPAPAAGGSAGGEVEAADDDDEEDAEEEAADEGGDDDGDDDEEADGEGLGALFG",
+        "description": "A short report on the protein with the given amino acid sequence highlights: Forms part of the ribosomal stalk, playing a central role in the interaction of the ribosome with GTP-bound translation factors.",
+        "split": "test",
+        "metadata": "Forms part of the ribosomal stalk, playing a central role in the interaction of the ribosome with GTP-bound translation factors."
+    },
+    {
+        "instruction": "Could you evaluate the protein with this amino acid sequence and present a summary of its features? The sequence is: ",
+        "sequence": "MFFISKLSLSNIHVRLTAKGLLRNLQLLSGCKLAVGFLAVDKNKSRTNSKNPQPPTNGQPDLVPPESKSRNVEYYKAQCEKKNQTIRQLENTLLSNNRRFEAVAVVIKHLYAEHDEVMKQRRDLSQELVTLREELVSSGHSCERLEQEKEDLRSAFDGVLQKVQEQHRLDLADLEERLKTFYSTEWEKVHQAYQEEADKCKAQMEQQLEEIRSKHEALKKELESSHIEEVDGLKQQFEESFKGFKQSHEKEMQNLNETLKESEETLSNQIQDLMTENDSLKEKLNAEVKRRMELAEKTQDSHTLYLEQELESLKVVLDIKNKQIHEQDKKLMQIDKLMERNVKLDECLKKLQQENEDLKARMDRHAALSRQLSTEQAVLQESLQKESKVNKRLSMENEELLWKLHNGDLNSPRKISPSPSLNLQSPRTSGMFSSPPVSPR",
+        "description": "A concise description of the protein with the specified amino acid sequence includes: May inhibit cell proliferation.",
+        "split": "test",
+        "metadata": "May inhibit cell proliferation."
+    }
+]

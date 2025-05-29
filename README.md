@@ -157,6 +157,18 @@ We evaluate RAPM on the Prot-Inst-OOD dataset, comparing it with various LLM-bas
 
 #### Implementation
 
+1. Prepare environment:
+
+- python=3.12.7
+- torch=2.7.0+cu118
+- transformers=4.45.0
+- cuda=11.7
+
+```bash
+conda create -n rapm python=3.10
+conda activate rapm
+pip install -r requirements.txt
+```
 
 
 
