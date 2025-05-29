@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# OOD-data
+dataset/catalytic_activity_OOD.json
+dataset/domain_motif_OOD.json
+dataset/general_function_OOD.json
+dataset/protein_function_OOD.json

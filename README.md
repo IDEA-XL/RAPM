@@ -140,6 +140,22 @@ In the Prot-Inst-OOD dataset, we provide the Bio-Entity list for all answers in 
 ### 🚀 Retrieval-Augmented Protein Modeling (RAPM)
 ---
 
+#### Model Overview and Results
+<details>
+  <summary style="cursor: pointer; font-style: italic; font-size: smaller;">Show Model Overview and Results</summary>
+
+RAPM is a retrieval-augmented method that enhances protein understanding by integrating retrieval mechanisms with language models. It retrieves relevant protein sequences from a database and uses them to inform the generation of text-based answers.
+
+![alt text](figs/pipeline.png)
+
+We evaluate RAPM on the Prot-Inst-OOD dataset, comparing it with various LLM-based models, including fine-tuned LLMs and retrieval-based methods. The results demonstrate that RAPM achieves superior performance in terms of both accuracy and efficiency.
+
+![alt text](figs/tab_main.png)
+
+
+</details>
+
+#### Implementation
 
 
 
