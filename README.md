@@ -21,13 +21,13 @@
 
 </h5>
 
-### [📖] Abstract:
+### 📖 Abstract:
 ---
 Recent advances in protein-text modeling reveal that _simple retrieval methods_ can _outperform current LLM-based approaches_, while _existing benchmarks and metrics_ often fail to reflect true model performance. To address these challenges, we introduce the _Prot-Inst-OOD dataset_ and the _Bio-Entity BLEU metric_ for more reliable evaluation. Our proposed _RAPM framework_, which combines _retrieval-augmented generation_ with a _dual-indexed biological knowledge database_, achieves _state-of-the-art results_ and demonstrates that _retrieval-augmented approaches_ are both _more accurate and efficient_ for protein-text understanding tasks.
 
 ![alt text](figs/main_fig.png)
 
-### [‼️] Data Leakage in Existing Protein-to-Text Benchmark 
+### ‼️ Data Leakage in Existing Protein-to-Text Benchmark 
 ---
 We evaluated four widely used benchmarks for text-based protein understanding: the protein comprehension tasks from Mol-Instructions [1], UniProtQA [2], the Swiss-Prot Protein Caption dataset [3], and the ProteinKG25 dataset [4].
 
