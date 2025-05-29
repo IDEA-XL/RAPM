@@ -36,10 +36,8 @@ def group_by_seq(all_seqs, all_labels, all_instruction, all_meta, min_seq_id):
     print("Clusters 数目: ", len(clusters))
     
     
-    # 按cluster中包含的序列数目排序
     clusters = sorted(clusters, key=lambda x: len(x))
 
-    # 从小到大累加测试集，直到总数达到2000
     test_cluster = []
     test_count = 0
     for cluster in clusters:
@@ -49,14 +47,14 @@ def group_by_seq(all_seqs, all_labels, all_instruction, all_meta, min_seq_id):
         else:
             break
 
-    # 剩余的为训练集
+
     train_cluster = [c for c in clusters if c not in test_cluster]
 
-    # 输出训练集的大小以及占数据集的比例
+
     test_size = sum(len(cluster) for cluster in test_cluster)
     total_size = sum(len(cluster) for cluster in clusters)
-    print(f"测试集大小: {test_size}")
-    print(f"测试集占比: {test_size / total_size:.4f}")
+    print(f"size of test dataset: {test_size}")
+    print(f"ratio of test dataset: {test_size / total_size:.4f}")
     
     # train_cluster = clusters[: int(len(clusters) * 0.8)]
     # test_cluster = clusters[int(len(clusters) * 0.8):]  

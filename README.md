@@ -111,10 +111,11 @@ Here is an example of the evaluation results using ROUGE-L and BLEU metrics on a
   <span><b>Bold</b></span>: Matched Part &nbsp;&nbsp;
   <span><b>Italic</b></span>: Mismatched Part
 </p>
-</details>
+
 
 It is evident that the first prediction, which is the true answer, has a low ROUGE-L and BLEU score due to the lack of exact matches in the generated text. In contrast, the second prediction, which is incorrect, achieves high scores despite containing incorrect information. This highlights the inadequacy of these metrics for evaluating protein-to-text generation tasks.
 
+</details>
 
 #### Entity-BLEU
 
@@ -175,6 +176,15 @@ pip install -r requirements.txt
 
 MMseqs2 can be installed from [official repository](https://github.com/soedinglab/MMseqs2).
 
+2. Download the Prot-Inst-OOD dataset from [Huggingface](https://huggingface.co/datasets/TimeRune/Prot-Inst-OOD).
+
+Put the dataset in the `dataset` folder, or construct your own dataset in the same format. An example dataset structure can be seen in the `dataset/example_task.json`.
+
+3. Run simple retrieval method (MMSeqs2 & ESM2 embedding retrieval):
+
+```bash
+python retrival_methods/simple_retrieval.py
+```
 
 
 ### Citation
