@@ -619,6 +619,20 @@
         "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
         "sequence": "MDADSLLLSLELASGSGQGLSPDRRASLLTSLMLVKRDYRYDRVLFWGRILGLVADYYIAQGLSEDQLAPRKTLYSLNCTEWSLLPPATEEMVAQSSVVKGRFMGDPSYEYEHTELQKVNEGEKVFEEEIVVQIKEETRLVSVIDQIDKAVAIIPRGALFKTPFGPTHVNRTFEGLSLSEAKKLSSYFHFREPVELKNKTLLEKADLDPSLDFMDSLEHDIPKGSWSIQMERGNALVVLRSLLWPGLTFYHAPRTKNYGYVYVGTGEKNMDLPFML",
         "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia .",
+        "split": "train",
+        "metadata": "Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia ."
+    },
+    {
+        "instruction": "Inspect the protein with the subsequent sequence and offer a concise description of its properties: ",
+        "sequence": "TPVVNPPFLQQT",
+        "description": "An outline of the key aspects of the protein with the corresponding amino acid sequence is as follows: Has antibacterial activity against the Gram-positive bacteria L.monocytogenes, L.lactis subsp lactis and L.curvatus H28, but not against the Gram-positive bacteria L.curvatus CWBI-B28, L.brevis and L.plantarum or the Gram-negative bacteria E.coli and Pseudomonas sp 55. Has no antifungal activity against S.cerevisiae, Penicillium sp BKS- TAN2 or A.niger.",
+        "split": "train",
+        "metadata": "Has antibacterial activity against the Gram-positive bacteria L.monocytogenes, L.lactis subsp lactis and L.curvatus H28, but not against the Gram-positive bacteria L.curvatus CWBI-B28, L.brevis and L.plantarum or the Gram-negative bacteria E.coli and Pseudomonas sp 55. Has no antifungal activity against S.cerevisiae, Penicillium sp BKS- TAN2 or A.niger."
+    },
+    {
+        "instruction": "Conduct a quick analysis of the protein represented by the following sequence and outline its main characteristics: ",
+        "sequence": "MDADSLLLSLELASGSGQGLSPDRRASLLTSLMLVKRDYRYDRVLFWGRILGLVADYYIAQGLSEDQLAPRKTLYSLNCTEWSLLPPATEEMVAQSSVVKGRFMGDPSYEYEHTELQKVNEGEKVFEEEIVVQIKEETRLVSVIDQIDKAVAIIPRGALFKTPFGPTHVNRTFEGLSLSEAKKLSSYFHFREPVELKNKTLLEKADLDPSLDFMDSLEHDIPKGSWSIQMERGNALVVLRSLLWPGLTFYHAPRTKNYGYVYVGTGEKNMDLPFML",
+        "description": "A brief overview of the protein with the provided amino acid sequence is as follows: Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia .",
         "split": "test",
         "metadata": "Component of the axonemal radial spoke head which plays an important role in ciliary motility. Essential for both the radial spoke head assembly and the central pair microtubule stability in ependymal motile cilia . Required for motility of olfactory and neural cilia and for the structural integrity of ciliary axonemes in both 9+0 and 9+2 motile cilia ."
     },

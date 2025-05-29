@@ -647,6 +647,13 @@
         "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
         "sequence": "MPIKKGSLVRAVRDKLDNSLEALANDTRWPSYLFETDGEVLDMRGDYALIKFGAVPTPPVWLRQDQLAESGAAAESTS",
         "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+).",
+        "split": "train",
+        "metadata": "a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+)"
+    },
+    {
+        "instruction": "Using the protein sequence supplied, identify and describe the enzymatic catalytic activity, with emphasis on the chemical reaction it accelerates: ",
+        "sequence": "MPIKKGSLVRAVRDKLDNSLEALANDTRWPSYLFETDGEVLDMRGDYALIKFGAVPTPPVWLRQDQLAESGAAAESTS",
+        "description": "Based on the provided protein sequence, the enzyme appears to facilitate the chemical reaction: a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+).",
         "split": "test",
         "metadata": "a plastoquinone + (n+1) H(+)(in) + NADPH = a plastoquinol + n   H(+)(out) + NADP(+)"
     },
