@@ -92,7 +92,7 @@ Here is an example of the evaluation results using ROUGE-L and BLEU metrics on a
   <tr>
     <td><b>Prediction 1<br>(True Answer):</b></td>
     <td>
-      <code><span style="color:#c62828;">The sequence you provided has been analyzed for potential protein domains or motifs. The results are:</span><span style="color:#1976d2;"> ABC transporter domains</span>
+      <code><em>The sequence you provided has been analyzed for potential protein domains or motifs. The results are:</em> <b>ABC transporter domains</b></code>
       <br>
       <span style="background-color:#f5f5f5; padding:2px 6px; border-radius:3px; font-size:90%; color:#333;">ROUGE-L = 0.27; BLEU = 0.04</span>
     </td>
@@ -100,7 +100,7 @@ Here is an example of the evaluation results using ROUGE-L and BLEU metrics on a
   <tr>
     <td><b>Prediction 2<br>(False Answer):</b></td>
     <td>
-      <code><span style="color:#1976d2;">Upon evaluating your submitted sequence, our predictive algorithms suggest the presence of: </span><span style="color:#c62828;">GGDEF, MHYT, EAL domains</span>
+      <code><b>Upon evaluating your submitted sequence, our predictive algorithms suggest the presence of: </b><em>GGDEF, MHYT, EAL domains</em></code>
       <br>
       <span style="background-color:#f5f5f5; padding:2px 6px; border-radius:3px; font-size:90%; color:#333;">ROUGE-L = 0.83; BLEU = 0.73</span>
     </td>
