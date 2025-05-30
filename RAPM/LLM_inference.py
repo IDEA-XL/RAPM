@@ -137,8 +137,8 @@ def evaluation(lines, labels, meta_labels):
 
 
 client = OpenAI(
-    api_key="your_api_key",
-    base_url="your_base_url",
+    # api_key="your_api_key",
+    # base_url="your_base_url",
 )
 
 
