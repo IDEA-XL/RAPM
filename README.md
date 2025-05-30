@@ -168,6 +168,7 @@ You can use the following commands to set up the environment:
 ```bash
 conda create -n RAPM python=3.12.7
 conda activate RAPM
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 
