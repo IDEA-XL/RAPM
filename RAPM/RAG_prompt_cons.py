@@ -126,7 +126,7 @@ def RAG_prompt_construction(db_seqs, db_labels, db_features, train_labels, test_
         for idx, score in zip(idxs, scores):
             topk_list.append({
                 "train_seqs_label": train_labels[idx],
-                "confindence level": score_to_confidence(score * 100),
+                "confidence_level": score_to_confidence(score * 100),
             })
         train_faiss_results.append(topk_list)
     
@@ -157,7 +157,7 @@ def RAG_prompt_construction(db_seqs, db_labels, db_features, train_labels, test_
         for item in train_faiss_results[i]:
             train_examples.append({
                 "example answer": item["train_seqs_label"],
-                "confidence level": item["confidence level"] 
+                "confidence level": item["confidence_level"] 
             })
         rag_prompt = {
             "instructions": test_insts[i],
