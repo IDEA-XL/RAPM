@@ -157,7 +157,7 @@ def RAG_prompt_construction(db_seqs, db_labels, db_features, train_labels, test_
         for item in train_faiss_results[i]:
             train_examples.append({
                 "example answer": item["train_seqs_label"],
-                "confidence level": item["train_faiss_score"] 
+                "confidence level": item["confidence level"] 
             })
         rag_prompt = {
             "instructions": test_insts[i],

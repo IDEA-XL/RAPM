@@ -191,7 +191,7 @@ python retrival_methods/simple_retrieval.py
 Build bio-knowledge database and run RAPM with the following command:
 
 ```bash
-python RAPM/RAG_prompt_cons.py RAPM/dataset 10 
+python RAPM/RAG_prompt_cons.py dataset 10 
 ```
 
 Inference RAG_prompts with LLMs:
