@@ -186,6 +186,20 @@ Put the dataset in the `dataset` folder, or construct your own dataset in the sa
 python retrival_methods/simple_retrieval.py
 ```
 
+4. Run RAPM:
+
+Build bio-knowledge database and run RAPM with the following command:
+
+```bash
+python RAPM/RAG_prompt_cons.py RAPM/dataset 10 
+```
+
+Inference RAG_prompts with LLMs:
+
+```bash
+python RAPM/LLM_inference.py <task_name> <k>
+```
+
 
 ### Citation
 If you find our work useful for your research and applications, please cite using this BibTeX:
